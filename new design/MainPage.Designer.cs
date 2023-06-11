@@ -1085,7 +1085,7 @@
             // 
             // panel3
             // 
-            this.panel3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(118)))), ((int)(((byte)(148)))));
+            this.panel3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(57)))), ((int)(((byte)(71)))));
             this.panel3.Controls.Add(this.btn_backform);
             this.panel3.Controls.Add(this.panel1);
             this.panel3.Controls.Add(this.btn_forwardform);

@@ -37,7 +37,7 @@ namespace new_design
             if (menuExpand)
             {
                 menuPanel.Width -= 10;
-                if (menuPanel.Width <= 80)
+                if (menuPanel.Width <= 60)
                 {
                     menuExpand = false;
                     menuTransition.Stop();

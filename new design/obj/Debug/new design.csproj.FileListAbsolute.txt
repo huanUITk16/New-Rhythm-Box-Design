@@ -98,3 +98,9 @@ D:\Học tập\Lap trinh mang can ban\New Design For Rhythmbox\new design\obj\De
 D:\Học tập\Lap trinh mang can ban\New Design For Rhythmbox\new design\obj\Debug\new design.pdb
 D:\Học tập\Lap trinh mang can ban\New Design For Rhythmbox\new design\obj\Debug\new_design.MainPageForArtists.resources
 D:\Học tập\Lap trinh mang can ban\New Design For Rhythmbox\new design\obj\Debug\new_design.Profile.resources
+D:\Học tập\Lap trinh mang can ban\New Design For Rhythmbox\new design\obj\Debug\new_design.Upload.resources
+D:\Học tập\Lap trinh mang can ban\New Design For Rhythmbox\new design\obj\Debug\new_design.MyAlbums.resources
+D:\Học tập\Lap trinh mang can ban\New Design For Rhythmbox\new design\obj\Debug\new_design.Settings.resources
+D:\Học tập\Lap trinh mang can ban\New Design For Rhythmbox\new design\obj\Debug\new_design.Album.resources
+D:\Học tập\Lap trinh mang can ban\New Design For Rhythmbox\new design\obj\Debug\new_design.ArtistsLibrary.resources
+D:\Học tập\Lap trinh mang can ban\New Design For Rhythmbox\new design\obj\Debug\new_design.Playlist.resources
