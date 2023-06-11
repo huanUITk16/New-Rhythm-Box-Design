@@ -21,5 +21,59 @@ namespace new_design
         {
 
         }
+
+        private void btn_user_Click(object sender, EventArgs e)
+        {
+            artistTransition.Start();
+        }
+
+        private void btn_menu_Click(object sender, EventArgs e)
+        {
+            menuTransition.Start();
+        }
+        bool menuExpand = true;
+        private void menuTransition_Tick(object sender, EventArgs e)
+        {
+            if (menuExpand)
+            {
+                menuPanel.Width -= 10;
+                if (menuPanel.Width <= 80)
+                {
+                    menuExpand = false;
+                    menuTransition.Stop();
+                }
+            }
+            else
+            {
+                menuPanel.Width += 10;
+                if (menuPanel.Width >= 220)
+                {
+                    menuExpand = true;
+                    menuTransition.Stop();
+                }
+            }
+        }
+        bool artistExpand = true; 
+        private void artistTransition_Tick(object sender, EventArgs e)
+        {
+            if (artistExpand == false)
+            {
+                userContainer.Height += 10;
+                if (userContainer.Height >= 270)
+                {
+                    artistTransition.Stop();
+                    artistExpand = true;
+                }
+            }
+            else
+            {
+                userContainer.Height -= 10;
+                if (userContainer.Height <= 45)
+                {
+                    artistTransition.Stop();
+                    artistExpand = false;
+                }
+            }
+        }
     }
 }
