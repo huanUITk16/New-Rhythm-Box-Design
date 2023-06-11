@@ -1106,7 +1106,7 @@
             this.Controls.Add(this.menuPanel);
             this.Controls.Add(this.flowLayoutPanel2);
             this.Name = "MainPage";
-            this.Text = "Form1";
+            this.Text = "MainPageForUser";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.panel_Settings.ResumeLayout(false);
             this.panel_menu.ResumeLayout(false);
