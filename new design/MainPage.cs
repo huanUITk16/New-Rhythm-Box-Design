@@ -13,6 +13,8 @@ namespace new_design
 {
     public partial class MainPage : Form
     {
+        private Size formOriginalSize;
+        
         public MainPage()
         {
             InitializeComponent();
@@ -30,7 +32,20 @@ namespace new_design
             public static Color color5 = Color.FromArgb(249, 88, 155);
             public static Color color6 = Color.FromArgb(24, 161, 251);
         }
-        
+        private void resize_Control(Control c, Rectangle r)
+        {
+            float xRatio = (float)(this.Width) / (float)(formOriginalSize.Width);
+            float yRatio = (float)(this.Height) / (float)(formOriginalSize.Height);
+            int newX = (int)(r.X * xRatio);
+            int newY = (int)(r.Y * yRatio);
+
+            int newWidth = (int)(r.Width * xRatio);
+            int newHeight = (int)(r.Height * yRatio);
+
+            c.Location = new Point(newX, newY);
+            c.Size = new Size(newWidth, newHeight);
+
+        }
         private void AdjustForm()
         {
             switch (this.WindowState)
@@ -166,6 +181,11 @@ namespace new_design
         }
 
         private void flowLayoutPanel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void label1_Click(object sender, EventArgs e)
         {
 
         }
