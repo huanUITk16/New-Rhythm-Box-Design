@@ -82,12 +82,10 @@
             this.artistTransition = new System.Windows.Forms.Timer(this.components);
             this.menuTransition = new System.Windows.Forms.Timer(this.components);
             this.panel1 = new System.Windows.Forms.Panel();
-            this.btn_addTracks = new Bunifu.UI.WinForms.BunifuButton.BunifuIconButton();
-            this.bunifuLabel1 = new Bunifu.UI.WinForms.BunifuLabel();
             this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
             this.bunifuPanel1 = new Bunifu.UI.WinForms.BunifuPanel();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.bunifuLabel4 = new Bunifu.UI.WinForms.BunifuLabel();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.bunifuPanel2 = new Bunifu.UI.WinForms.BunifuPanel();
             this.bunifuLabel5 = new Bunifu.UI.WinForms.BunifuLabel();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
@@ -109,6 +107,8 @@
             this.bunifuPanel8 = new Bunifu.UI.WinForms.BunifuPanel();
             this.bunifuLabel12 = new Bunifu.UI.WinForms.BunifuLabel();
             this.pictureBox8 = new System.Windows.Forms.PictureBox();
+            this.btn_addTracks = new Bunifu.UI.WinForms.BunifuButton.BunifuIconButton();
+            this.bunifuLabel1 = new Bunifu.UI.WinForms.BunifuLabel();
             this.flowLayoutPanel2.SuspendLayout();
             this.panel8.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.bunifuPictureBox1)).BeginInit();
@@ -894,56 +894,6 @@
             this.panel1.Size = new System.Drawing.Size(1207, 597);
             this.panel1.TabIndex = 8;
             // 
-            // btn_addTracks
-            // 
-            this.btn_addTracks.AllowAnimations = true;
-            this.btn_addTracks.AllowBorderColorChanges = true;
-            this.btn_addTracks.AllowMouseEffects = true;
-            this.btn_addTracks.AnimationSpeed = 200;
-            this.btn_addTracks.BackColor = System.Drawing.Color.Transparent;
-            this.btn_addTracks.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(57)))), ((int)(((byte)(71)))));
-            this.btn_addTracks.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(9)))), ((int)(((byte)(54)))), ((int)(((byte)(71)))));
-            this.btn_addTracks.BorderRadius = 1;
-            this.btn_addTracks.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuIconButton.BorderStyles.Solid;
-            this.btn_addTracks.BorderThickness = 1;
-            this.btn_addTracks.ColorContrastOnClick = 30;
-            this.btn_addTracks.ColorContrastOnHover = 30;
-            this.btn_addTracks.Cursor = System.Windows.Forms.Cursors.Default;
-            borderEdges9.BottomLeft = true;
-            borderEdges9.BottomRight = true;
-            borderEdges9.TopLeft = true;
-            borderEdges9.TopRight = true;
-            this.btn_addTracks.CustomizableEdges = borderEdges9;
-            this.btn_addTracks.DialogResult = System.Windows.Forms.DialogResult.None;
-            this.btn_addTracks.Image = ((System.Drawing.Image)(resources.GetObject("btn_addTracks.Image")));
-            this.btn_addTracks.ImageMargin = new System.Windows.Forms.Padding(0);
-            this.btn_addTracks.Location = new System.Drawing.Point(179, 15);
-            this.btn_addTracks.Name = "btn_addTracks";
-            this.btn_addTracks.RoundBorders = false;
-            this.btn_addTracks.ShowBorders = true;
-            this.btn_addTracks.Size = new System.Drawing.Size(56, 52);
-            this.btn_addTracks.Style = Bunifu.UI.WinForms.BunifuButton.BunifuIconButton.ButtonStyles.Flat;
-            this.btn_addTracks.TabIndex = 6;
-            // 
-            // bunifuLabel1
-            // 
-            this.bunifuLabel1.AllowParentOverrides = false;
-            this.bunifuLabel1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.bunifuLabel1.AutoEllipsis = false;
-            this.bunifuLabel1.Cursor = System.Windows.Forms.Cursors.Default;
-            this.bunifuLabel1.CursorType = System.Windows.Forms.Cursors.Default;
-            this.bunifuLabel1.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bunifuLabel1.ForeColor = System.Drawing.Color.White;
-            this.bunifuLabel1.Location = new System.Drawing.Point(47, 28);
-            this.bunifuLabel1.Name = "bunifuLabel1";
-            this.bunifuLabel1.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.bunifuLabel1.Size = new System.Drawing.Size(118, 28);
-            this.bunifuLabel1.TabIndex = 2;
-            this.bunifuLabel1.Text = "MY ALBUMS";
-            this.bunifuLabel1.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
-            this.bunifuLabel1.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.Default;
-            // 
             // flowLayoutPanel1
             // 
             this.flowLayoutPanel1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
@@ -979,14 +929,6 @@
             this.bunifuPanel1.Size = new System.Drawing.Size(227, 208);
             this.bunifuPanel1.TabIndex = 0;
             // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Location = new System.Drawing.Point(20, 9);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(189, 168);
-            this.pictureBox1.TabIndex = 0;
-            this.pictureBox1.TabStop = false;
-            // 
             // bunifuLabel4
             // 
             this.bunifuLabel4.AllowParentOverrides = false;
@@ -1005,6 +947,14 @@
             this.bunifuLabel4.Text = "#Album name";
             this.bunifuLabel4.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
             this.bunifuLabel4.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.Default;
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Location = new System.Drawing.Point(20, 9);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(189, 168);
+            this.pictureBox1.TabIndex = 0;
+            this.pictureBox1.TabStop = false;
             // 
             // bunifuPanel2
             // 
@@ -1307,6 +1257,56 @@
             this.pictureBox8.TabIndex = 0;
             this.pictureBox8.TabStop = false;
             // 
+            // btn_addTracks
+            // 
+            this.btn_addTracks.AllowAnimations = true;
+            this.btn_addTracks.AllowBorderColorChanges = true;
+            this.btn_addTracks.AllowMouseEffects = true;
+            this.btn_addTracks.AnimationSpeed = 200;
+            this.btn_addTracks.BackColor = System.Drawing.Color.Transparent;
+            this.btn_addTracks.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(57)))), ((int)(((byte)(71)))));
+            this.btn_addTracks.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(9)))), ((int)(((byte)(54)))), ((int)(((byte)(71)))));
+            this.btn_addTracks.BorderRadius = 1;
+            this.btn_addTracks.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuIconButton.BorderStyles.Solid;
+            this.btn_addTracks.BorderThickness = 1;
+            this.btn_addTracks.ColorContrastOnClick = 30;
+            this.btn_addTracks.ColorContrastOnHover = 30;
+            this.btn_addTracks.Cursor = System.Windows.Forms.Cursors.Default;
+            borderEdges9.BottomLeft = true;
+            borderEdges9.BottomRight = true;
+            borderEdges9.TopLeft = true;
+            borderEdges9.TopRight = true;
+            this.btn_addTracks.CustomizableEdges = borderEdges9;
+            this.btn_addTracks.DialogResult = System.Windows.Forms.DialogResult.None;
+            this.btn_addTracks.Image = ((System.Drawing.Image)(resources.GetObject("btn_addTracks.Image")));
+            this.btn_addTracks.ImageMargin = new System.Windows.Forms.Padding(0);
+            this.btn_addTracks.Location = new System.Drawing.Point(179, 15);
+            this.btn_addTracks.Name = "btn_addTracks";
+            this.btn_addTracks.RoundBorders = false;
+            this.btn_addTracks.ShowBorders = true;
+            this.btn_addTracks.Size = new System.Drawing.Size(56, 52);
+            this.btn_addTracks.Style = Bunifu.UI.WinForms.BunifuButton.BunifuIconButton.ButtonStyles.Flat;
+            this.btn_addTracks.TabIndex = 6;
+            // 
+            // bunifuLabel1
+            // 
+            this.bunifuLabel1.AllowParentOverrides = false;
+            this.bunifuLabel1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.bunifuLabel1.AutoEllipsis = false;
+            this.bunifuLabel1.Cursor = System.Windows.Forms.Cursors.Default;
+            this.bunifuLabel1.CursorType = System.Windows.Forms.Cursors.Default;
+            this.bunifuLabel1.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bunifuLabel1.ForeColor = System.Drawing.Color.White;
+            this.bunifuLabel1.Location = new System.Drawing.Point(47, 28);
+            this.bunifuLabel1.Name = "bunifuLabel1";
+            this.bunifuLabel1.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.bunifuLabel1.Size = new System.Drawing.Size(118, 28);
+            this.bunifuLabel1.TabIndex = 2;
+            this.bunifuLabel1.Text = "MY ALBUMS";
+            this.bunifuLabel1.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
+            this.bunifuLabel1.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.Default;
+            // 
             // MyAlbums
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -1317,6 +1317,7 @@
             this.Controls.Add(this.flowLayoutPanel2);
             this.Name = "MyAlbums";
             this.Text = "MyAlbums";
+            this.Load += new System.EventHandler(this.MyAlbums_Load);
             this.flowLayoutPanel2.ResumeLayout(false);
             this.panel8.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.bunifuPictureBox1)).EndInit();

@@ -30,15 +30,15 @@
         {
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Playlist));
-            Bunifu.UI.WinForms.BunifuButton.BunifuIconButton.BorderEdges borderEdges10 = new Bunifu.UI.WinForms.BunifuButton.BunifuIconButton.BorderEdges();
-            Bunifu.UI.WinForms.BunifuButton.BunifuIconButton.BorderEdges borderEdges11 = new Bunifu.UI.WinForms.BunifuButton.BunifuIconButton.BorderEdges();
-            Bunifu.UI.WinForms.BunifuButton.BunifuIconButton.BorderEdges borderEdges12 = new Bunifu.UI.WinForms.BunifuButton.BunifuIconButton.BorderEdges();
-            Bunifu.UI.WinForms.BunifuButton.BunifuIconButton.BorderEdges borderEdges13 = new Bunifu.UI.WinForms.BunifuButton.BunifuIconButton.BorderEdges();
-            Bunifu.UI.WinForms.BunifuButton.BunifuIconButton.BorderEdges borderEdges14 = new Bunifu.UI.WinForms.BunifuButton.BunifuIconButton.BorderEdges();
-            Bunifu.UI.WinForms.BunifuButton.BunifuIconButton.BorderEdges borderEdges15 = new Bunifu.UI.WinForms.BunifuButton.BunifuIconButton.BorderEdges();
-            Bunifu.UI.WinForms.BunifuButton.BunifuIconButton.BorderEdges borderEdges16 = new Bunifu.UI.WinForms.BunifuButton.BunifuIconButton.BorderEdges();
-            Bunifu.UI.WinForms.BunifuButton.BunifuIconButton.BorderEdges borderEdges17 = new Bunifu.UI.WinForms.BunifuButton.BunifuIconButton.BorderEdges();
-            Bunifu.UI.WinForms.BunifuButton.BunifuIconButton.BorderEdges borderEdges18 = new Bunifu.UI.WinForms.BunifuButton.BunifuIconButton.BorderEdges();
+            Bunifu.UI.WinForms.BunifuButton.BunifuIconButton.BorderEdges borderEdges1 = new Bunifu.UI.WinForms.BunifuButton.BunifuIconButton.BorderEdges();
+            Bunifu.UI.WinForms.BunifuButton.BunifuIconButton.BorderEdges borderEdges2 = new Bunifu.UI.WinForms.BunifuButton.BunifuIconButton.BorderEdges();
+            Bunifu.UI.WinForms.BunifuButton.BunifuIconButton.BorderEdges borderEdges3 = new Bunifu.UI.WinForms.BunifuButton.BunifuIconButton.BorderEdges();
+            Bunifu.UI.WinForms.BunifuButton.BunifuIconButton.BorderEdges borderEdges4 = new Bunifu.UI.WinForms.BunifuButton.BunifuIconButton.BorderEdges();
+            Bunifu.UI.WinForms.BunifuButton.BunifuIconButton.BorderEdges borderEdges5 = new Bunifu.UI.WinForms.BunifuButton.BunifuIconButton.BorderEdges();
+            Bunifu.UI.WinForms.BunifuButton.BunifuIconButton.BorderEdges borderEdges6 = new Bunifu.UI.WinForms.BunifuButton.BunifuIconButton.BorderEdges();
+            Bunifu.UI.WinForms.BunifuButton.BunifuIconButton.BorderEdges borderEdges7 = new Bunifu.UI.WinForms.BunifuButton.BunifuIconButton.BorderEdges();
+            Bunifu.UI.WinForms.BunifuButton.BunifuIconButton.BorderEdges borderEdges8 = new Bunifu.UI.WinForms.BunifuButton.BunifuIconButton.BorderEdges();
+            Bunifu.UI.WinForms.BunifuButton.BunifuIconButton.BorderEdges borderEdges9 = new Bunifu.UI.WinForms.BunifuButton.BunifuIconButton.BorderEdges();
             this.artistTransition = new System.Windows.Forms.Timer(this.components);
             this.menuTransition = new System.Windows.Forms.Timer(this.components);
             this.flowLayoutPanel2 = new System.Windows.Forms.FlowLayoutPanel();
@@ -90,26 +90,26 @@
             this.bunifuLabel5 = new Bunifu.UI.WinForms.BunifuLabel();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.bunifuPanel3 = new Bunifu.UI.WinForms.BunifuPanel();
+            this.bunifuLabel6 = new Bunifu.UI.WinForms.BunifuLabel();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.bunifuPanel4 = new Bunifu.UI.WinForms.BunifuPanel();
+            this.bunifuLabel7 = new Bunifu.UI.WinForms.BunifuLabel();
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.bunifuPanel5 = new Bunifu.UI.WinForms.BunifuPanel();
+            this.bunifuLabel13 = new Bunifu.UI.WinForms.BunifuLabel();
             this.bunifuLabel9 = new Bunifu.UI.WinForms.BunifuLabel();
             this.pictureBox5 = new System.Windows.Forms.PictureBox();
             this.bunifuPanel6 = new Bunifu.UI.WinForms.BunifuPanel();
+            this.bunifuLabel10 = new Bunifu.UI.WinForms.BunifuLabel();
             this.pictureBox6 = new System.Windows.Forms.PictureBox();
             this.bunifuPanel7 = new Bunifu.UI.WinForms.BunifuPanel();
+            this.bunifuLabel11 = new Bunifu.UI.WinForms.BunifuLabel();
             this.pictureBox7 = new System.Windows.Forms.PictureBox();
             this.bunifuPanel8 = new Bunifu.UI.WinForms.BunifuPanel();
+            this.bunifuLabel12 = new Bunifu.UI.WinForms.BunifuLabel();
             this.pictureBox8 = new System.Windows.Forms.PictureBox();
             this.btn_addTracks = new Bunifu.UI.WinForms.BunifuButton.BunifuIconButton();
             this.bunifuLabel1 = new Bunifu.UI.WinForms.BunifuLabel();
-            this.bunifuLabel6 = new Bunifu.UI.WinForms.BunifuLabel();
-            this.bunifuLabel7 = new Bunifu.UI.WinForms.BunifuLabel();
-            this.bunifuLabel13 = new Bunifu.UI.WinForms.BunifuLabel();
-            this.bunifuLabel10 = new Bunifu.UI.WinForms.BunifuLabel();
-            this.bunifuLabel11 = new Bunifu.UI.WinForms.BunifuLabel();
-            this.bunifuLabel12 = new Bunifu.UI.WinForms.BunifuLabel();
             this.flowLayoutPanel2.SuspendLayout();
             this.panel8.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.bunifuPictureBox1)).BeginInit();
@@ -268,11 +268,11 @@
             this.btn_shuffle.ColorContrastOnClick = 30;
             this.btn_shuffle.ColorContrastOnHover = 30;
             this.btn_shuffle.Cursor = System.Windows.Forms.Cursors.Default;
-            borderEdges10.BottomLeft = true;
-            borderEdges10.BottomRight = true;
-            borderEdges10.TopLeft = true;
-            borderEdges10.TopRight = true;
-            this.btn_shuffle.CustomizableEdges = borderEdges10;
+            borderEdges1.BottomLeft = true;
+            borderEdges1.BottomRight = true;
+            borderEdges1.TopLeft = true;
+            borderEdges1.TopRight = true;
+            this.btn_shuffle.CustomizableEdges = borderEdges1;
             this.btn_shuffle.DialogResult = System.Windows.Forms.DialogResult.None;
             this.btn_shuffle.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(9)))), ((int)(((byte)(54)))), ((int)(((byte)(71)))));
             this.btn_shuffle.Image = ((System.Drawing.Image)(resources.GetObject("btn_shuffle.Image")));
@@ -347,11 +347,11 @@
             this.btn_play.ColorContrastOnClick = 30;
             this.btn_play.ColorContrastOnHover = 30;
             this.btn_play.Cursor = System.Windows.Forms.Cursors.Default;
-            borderEdges11.BottomLeft = true;
-            borderEdges11.BottomRight = true;
-            borderEdges11.TopLeft = true;
-            borderEdges11.TopRight = true;
-            this.btn_play.CustomizableEdges = borderEdges11;
+            borderEdges2.BottomLeft = true;
+            borderEdges2.BottomRight = true;
+            borderEdges2.TopLeft = true;
+            borderEdges2.TopRight = true;
+            this.btn_play.CustomizableEdges = borderEdges2;
             this.btn_play.DialogResult = System.Windows.Forms.DialogResult.None;
             this.btn_play.Image = ((System.Drawing.Image)(resources.GetObject("btn_play.Image")));
             this.btn_play.ImageMargin = new System.Windows.Forms.Padding(0);
@@ -378,11 +378,11 @@
             this.btn_next.ColorContrastOnClick = 30;
             this.btn_next.ColorContrastOnHover = 30;
             this.btn_next.Cursor = System.Windows.Forms.Cursors.Default;
-            borderEdges12.BottomLeft = true;
-            borderEdges12.BottomRight = true;
-            borderEdges12.TopLeft = true;
-            borderEdges12.TopRight = true;
-            this.btn_next.CustomizableEdges = borderEdges12;
+            borderEdges3.BottomLeft = true;
+            borderEdges3.BottomRight = true;
+            borderEdges3.TopLeft = true;
+            borderEdges3.TopRight = true;
+            this.btn_next.CustomizableEdges = borderEdges3;
             this.btn_next.DialogResult = System.Windows.Forms.DialogResult.None;
             this.btn_next.Image = ((System.Drawing.Image)(resources.GetObject("btn_next.Image")));
             this.btn_next.ImageMargin = new System.Windows.Forms.Padding(0);
@@ -409,11 +409,11 @@
             this.btn_stop.ColorContrastOnClick = 30;
             this.btn_stop.ColorContrastOnHover = 30;
             this.btn_stop.Cursor = System.Windows.Forms.Cursors.Default;
-            borderEdges13.BottomLeft = true;
-            borderEdges13.BottomRight = true;
-            borderEdges13.TopLeft = true;
-            borderEdges13.TopRight = true;
-            this.btn_stop.CustomizableEdges = borderEdges13;
+            borderEdges4.BottomLeft = true;
+            borderEdges4.BottomRight = true;
+            borderEdges4.TopLeft = true;
+            borderEdges4.TopRight = true;
+            this.btn_stop.CustomizableEdges = borderEdges4;
             this.btn_stop.DialogResult = System.Windows.Forms.DialogResult.None;
             this.btn_stop.Image = ((System.Drawing.Image)(resources.GetObject("btn_stop.Image")));
             this.btn_stop.ImageMargin = new System.Windows.Forms.Padding(0);
@@ -440,11 +440,11 @@
             this.btn_repeat.ColorContrastOnClick = 30;
             this.btn_repeat.ColorContrastOnHover = 30;
             this.btn_repeat.Cursor = System.Windows.Forms.Cursors.Default;
-            borderEdges14.BottomLeft = true;
-            borderEdges14.BottomRight = true;
-            borderEdges14.TopLeft = true;
-            borderEdges14.TopRight = true;
-            this.btn_repeat.CustomizableEdges = borderEdges14;
+            borderEdges5.BottomLeft = true;
+            borderEdges5.BottomRight = true;
+            borderEdges5.TopLeft = true;
+            borderEdges5.TopRight = true;
+            this.btn_repeat.CustomizableEdges = borderEdges5;
             this.btn_repeat.DialogResult = System.Windows.Forms.DialogResult.None;
             this.btn_repeat.Image = ((System.Drawing.Image)(resources.GetObject("btn_repeat.Image")));
             this.btn_repeat.ImageMargin = new System.Windows.Forms.Padding(0);
@@ -471,11 +471,11 @@
             this.btn_previous.ColorContrastOnClick = 30;
             this.btn_previous.ColorContrastOnHover = 30;
             this.btn_previous.Cursor = System.Windows.Forms.Cursors.Default;
-            borderEdges15.BottomLeft = true;
-            borderEdges15.BottomRight = true;
-            borderEdges15.TopLeft = true;
-            borderEdges15.TopRight = true;
-            this.btn_previous.CustomizableEdges = borderEdges15;
+            borderEdges6.BottomLeft = true;
+            borderEdges6.BottomRight = true;
+            borderEdges6.TopLeft = true;
+            borderEdges6.TopRight = true;
+            this.btn_previous.CustomizableEdges = borderEdges6;
             this.btn_previous.DialogResult = System.Windows.Forms.DialogResult.None;
             this.btn_previous.Image = ((System.Drawing.Image)(resources.GetObject("btn_previous.Image")));
             this.btn_previous.ImageMargin = new System.Windows.Forms.Padding(0);
@@ -531,11 +531,11 @@
             this.btn_search.ColorContrastOnClick = 30;
             this.btn_search.ColorContrastOnHover = 30;
             this.btn_search.Cursor = System.Windows.Forms.Cursors.Default;
-            borderEdges16.BottomLeft = true;
-            borderEdges16.BottomRight = true;
-            borderEdges16.TopLeft = true;
-            borderEdges16.TopRight = true;
-            this.btn_search.CustomizableEdges = borderEdges16;
+            borderEdges7.BottomLeft = true;
+            borderEdges7.BottomRight = true;
+            borderEdges7.TopLeft = true;
+            borderEdges7.TopRight = true;
+            this.btn_search.CustomizableEdges = borderEdges7;
             this.btn_search.DialogResult = System.Windows.Forms.DialogResult.None;
             this.btn_search.Image = ((System.Drawing.Image)(resources.GetObject("btn_search.Image")));
             this.btn_search.ImageMargin = new System.Windows.Forms.Padding(0);
@@ -562,11 +562,11 @@
             this.btn_menu.ColorContrastOnClick = 30;
             this.btn_menu.ColorContrastOnHover = 30;
             this.btn_menu.Cursor = System.Windows.Forms.Cursors.Hand;
-            borderEdges17.BottomLeft = true;
-            borderEdges17.BottomRight = true;
-            borderEdges17.TopLeft = true;
-            borderEdges17.TopRight = true;
-            this.btn_menu.CustomizableEdges = borderEdges17;
+            borderEdges8.BottomLeft = true;
+            borderEdges8.BottomRight = true;
+            borderEdges8.TopLeft = true;
+            borderEdges8.TopRight = true;
+            this.btn_menu.CustomizableEdges = borderEdges8;
             this.btn_menu.DialogResult = System.Windows.Forms.DialogResult.None;
             this.btn_menu.Image = ((System.Drawing.Image)(resources.GetObject("btn_menu.Image")));
             this.btn_menu.ImageMargin = new System.Windows.Forms.Padding(0);
@@ -1016,6 +1016,25 @@
             this.bunifuPanel3.Size = new System.Drawing.Size(227, 208);
             this.bunifuPanel3.TabIndex = 2;
             // 
+            // bunifuLabel6
+            // 
+            this.bunifuLabel6.AllowParentOverrides = false;
+            this.bunifuLabel6.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.bunifuLabel6.AutoEllipsis = false;
+            this.bunifuLabel6.Cursor = System.Windows.Forms.Cursors.Default;
+            this.bunifuLabel6.CursorType = System.Windows.Forms.Cursors.Default;
+            this.bunifuLabel6.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bunifuLabel6.ForeColor = System.Drawing.Color.White;
+            this.bunifuLabel6.Location = new System.Drawing.Point(66, 183);
+            this.bunifuLabel6.Name = "bunifuLabel6";
+            this.bunifuLabel6.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.bunifuLabel6.Size = new System.Drawing.Size(102, 20);
+            this.bunifuLabel6.TabIndex = 3;
+            this.bunifuLabel6.Text = "#Playlist name";
+            this.bunifuLabel6.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
+            this.bunifuLabel6.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.Default;
+            // 
             // pictureBox3
             // 
             this.pictureBox3.Location = new System.Drawing.Point(20, 9);
@@ -1039,6 +1058,25 @@
             this.bunifuPanel4.ShowBorders = true;
             this.bunifuPanel4.Size = new System.Drawing.Size(227, 208);
             this.bunifuPanel4.TabIndex = 3;
+            // 
+            // bunifuLabel7
+            // 
+            this.bunifuLabel7.AllowParentOverrides = false;
+            this.bunifuLabel7.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.bunifuLabel7.AutoEllipsis = false;
+            this.bunifuLabel7.Cursor = System.Windows.Forms.Cursors.Default;
+            this.bunifuLabel7.CursorType = System.Windows.Forms.Cursors.Default;
+            this.bunifuLabel7.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bunifuLabel7.ForeColor = System.Drawing.Color.White;
+            this.bunifuLabel7.Location = new System.Drawing.Point(66, 183);
+            this.bunifuLabel7.Name = "bunifuLabel7";
+            this.bunifuLabel7.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.bunifuLabel7.Size = new System.Drawing.Size(102, 20);
+            this.bunifuLabel7.TabIndex = 3;
+            this.bunifuLabel7.Text = "#Playlist name";
+            this.bunifuLabel7.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
+            this.bunifuLabel7.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.Default;
             // 
             // pictureBox4
             // 
@@ -1064,6 +1102,25 @@
             this.bunifuPanel5.ShowBorders = true;
             this.bunifuPanel5.Size = new System.Drawing.Size(227, 208);
             this.bunifuPanel5.TabIndex = 4;
+            // 
+            // bunifuLabel13
+            // 
+            this.bunifuLabel13.AllowParentOverrides = false;
+            this.bunifuLabel13.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.bunifuLabel13.AutoEllipsis = false;
+            this.bunifuLabel13.Cursor = System.Windows.Forms.Cursors.Default;
+            this.bunifuLabel13.CursorType = System.Windows.Forms.Cursors.Default;
+            this.bunifuLabel13.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bunifuLabel13.ForeColor = System.Drawing.Color.White;
+            this.bunifuLabel13.Location = new System.Drawing.Point(66, 183);
+            this.bunifuLabel13.Name = "bunifuLabel13";
+            this.bunifuLabel13.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.bunifuLabel13.Size = new System.Drawing.Size(102, 20);
+            this.bunifuLabel13.TabIndex = 3;
+            this.bunifuLabel13.Text = "#Playlist name";
+            this.bunifuLabel13.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
+            this.bunifuLabel13.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.Default;
             // 
             // bunifuLabel9
             // 
@@ -1107,6 +1164,25 @@
             this.bunifuPanel6.Size = new System.Drawing.Size(227, 208);
             this.bunifuPanel6.TabIndex = 5;
             // 
+            // bunifuLabel10
+            // 
+            this.bunifuLabel10.AllowParentOverrides = false;
+            this.bunifuLabel10.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.bunifuLabel10.AutoEllipsis = false;
+            this.bunifuLabel10.Cursor = System.Windows.Forms.Cursors.Default;
+            this.bunifuLabel10.CursorType = System.Windows.Forms.Cursors.Default;
+            this.bunifuLabel10.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bunifuLabel10.ForeColor = System.Drawing.Color.White;
+            this.bunifuLabel10.Location = new System.Drawing.Point(66, 183);
+            this.bunifuLabel10.Name = "bunifuLabel10";
+            this.bunifuLabel10.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.bunifuLabel10.Size = new System.Drawing.Size(102, 20);
+            this.bunifuLabel10.TabIndex = 3;
+            this.bunifuLabel10.Text = "#Playlist name";
+            this.bunifuLabel10.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
+            this.bunifuLabel10.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.Default;
+            // 
             // pictureBox6
             // 
             this.pictureBox6.Location = new System.Drawing.Point(20, 9);
@@ -1130,6 +1206,25 @@
             this.bunifuPanel7.ShowBorders = true;
             this.bunifuPanel7.Size = new System.Drawing.Size(227, 208);
             this.bunifuPanel7.TabIndex = 6;
+            // 
+            // bunifuLabel11
+            // 
+            this.bunifuLabel11.AllowParentOverrides = false;
+            this.bunifuLabel11.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.bunifuLabel11.AutoEllipsis = false;
+            this.bunifuLabel11.Cursor = System.Windows.Forms.Cursors.Default;
+            this.bunifuLabel11.CursorType = System.Windows.Forms.Cursors.Default;
+            this.bunifuLabel11.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bunifuLabel11.ForeColor = System.Drawing.Color.White;
+            this.bunifuLabel11.Location = new System.Drawing.Point(66, 183);
+            this.bunifuLabel11.Name = "bunifuLabel11";
+            this.bunifuLabel11.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.bunifuLabel11.Size = new System.Drawing.Size(102, 20);
+            this.bunifuLabel11.TabIndex = 3;
+            this.bunifuLabel11.Text = "#Playlist name";
+            this.bunifuLabel11.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
+            this.bunifuLabel11.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.Default;
             // 
             // pictureBox7
             // 
@@ -1155,6 +1250,25 @@
             this.bunifuPanel8.Size = new System.Drawing.Size(227, 208);
             this.bunifuPanel8.TabIndex = 7;
             // 
+            // bunifuLabel12
+            // 
+            this.bunifuLabel12.AllowParentOverrides = false;
+            this.bunifuLabel12.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.bunifuLabel12.AutoEllipsis = false;
+            this.bunifuLabel12.Cursor = System.Windows.Forms.Cursors.Default;
+            this.bunifuLabel12.CursorType = System.Windows.Forms.Cursors.Default;
+            this.bunifuLabel12.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bunifuLabel12.ForeColor = System.Drawing.Color.White;
+            this.bunifuLabel12.Location = new System.Drawing.Point(66, 183);
+            this.bunifuLabel12.Name = "bunifuLabel12";
+            this.bunifuLabel12.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.bunifuLabel12.Size = new System.Drawing.Size(102, 20);
+            this.bunifuLabel12.TabIndex = 3;
+            this.bunifuLabel12.Text = "#Playlist name";
+            this.bunifuLabel12.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
+            this.bunifuLabel12.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.Default;
+            // 
             // pictureBox8
             // 
             this.pictureBox8.Location = new System.Drawing.Point(20, 9);
@@ -1178,11 +1292,11 @@
             this.btn_addTracks.ColorContrastOnClick = 30;
             this.btn_addTracks.ColorContrastOnHover = 30;
             this.btn_addTracks.Cursor = System.Windows.Forms.Cursors.Default;
-            borderEdges18.BottomLeft = true;
-            borderEdges18.BottomRight = true;
-            borderEdges18.TopLeft = true;
-            borderEdges18.TopRight = true;
-            this.btn_addTracks.CustomizableEdges = borderEdges18;
+            borderEdges9.BottomLeft = true;
+            borderEdges9.BottomRight = true;
+            borderEdges9.TopLeft = true;
+            borderEdges9.TopRight = true;
+            this.btn_addTracks.CustomizableEdges = borderEdges9;
             this.btn_addTracks.DialogResult = System.Windows.Forms.DialogResult.None;
             this.btn_addTracks.Image = ((System.Drawing.Image)(resources.GetObject("btn_addTracks.Image")));
             this.btn_addTracks.ImageMargin = new System.Windows.Forms.Padding(0);
@@ -1213,120 +1327,6 @@
             this.bunifuLabel1.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
             this.bunifuLabel1.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.Default;
             // 
-            // bunifuLabel6
-            // 
-            this.bunifuLabel6.AllowParentOverrides = false;
-            this.bunifuLabel6.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.bunifuLabel6.AutoEllipsis = false;
-            this.bunifuLabel6.Cursor = System.Windows.Forms.Cursors.Default;
-            this.bunifuLabel6.CursorType = System.Windows.Forms.Cursors.Default;
-            this.bunifuLabel6.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bunifuLabel6.ForeColor = System.Drawing.Color.White;
-            this.bunifuLabel6.Location = new System.Drawing.Point(66, 183);
-            this.bunifuLabel6.Name = "bunifuLabel6";
-            this.bunifuLabel6.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.bunifuLabel6.Size = new System.Drawing.Size(102, 20);
-            this.bunifuLabel6.TabIndex = 3;
-            this.bunifuLabel6.Text = "#Playlist name";
-            this.bunifuLabel6.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
-            this.bunifuLabel6.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.Default;
-            // 
-            // bunifuLabel7
-            // 
-            this.bunifuLabel7.AllowParentOverrides = false;
-            this.bunifuLabel7.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.bunifuLabel7.AutoEllipsis = false;
-            this.bunifuLabel7.Cursor = System.Windows.Forms.Cursors.Default;
-            this.bunifuLabel7.CursorType = System.Windows.Forms.Cursors.Default;
-            this.bunifuLabel7.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bunifuLabel7.ForeColor = System.Drawing.Color.White;
-            this.bunifuLabel7.Location = new System.Drawing.Point(66, 183);
-            this.bunifuLabel7.Name = "bunifuLabel7";
-            this.bunifuLabel7.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.bunifuLabel7.Size = new System.Drawing.Size(102, 20);
-            this.bunifuLabel7.TabIndex = 3;
-            this.bunifuLabel7.Text = "#Playlist name";
-            this.bunifuLabel7.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
-            this.bunifuLabel7.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.Default;
-            // 
-            // bunifuLabel13
-            // 
-            this.bunifuLabel13.AllowParentOverrides = false;
-            this.bunifuLabel13.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.bunifuLabel13.AutoEllipsis = false;
-            this.bunifuLabel13.Cursor = System.Windows.Forms.Cursors.Default;
-            this.bunifuLabel13.CursorType = System.Windows.Forms.Cursors.Default;
-            this.bunifuLabel13.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bunifuLabel13.ForeColor = System.Drawing.Color.White;
-            this.bunifuLabel13.Location = new System.Drawing.Point(66, 183);
-            this.bunifuLabel13.Name = "bunifuLabel13";
-            this.bunifuLabel13.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.bunifuLabel13.Size = new System.Drawing.Size(102, 20);
-            this.bunifuLabel13.TabIndex = 3;
-            this.bunifuLabel13.Text = "#Playlist name";
-            this.bunifuLabel13.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
-            this.bunifuLabel13.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.Default;
-            // 
-            // bunifuLabel10
-            // 
-            this.bunifuLabel10.AllowParentOverrides = false;
-            this.bunifuLabel10.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.bunifuLabel10.AutoEllipsis = false;
-            this.bunifuLabel10.Cursor = System.Windows.Forms.Cursors.Default;
-            this.bunifuLabel10.CursorType = System.Windows.Forms.Cursors.Default;
-            this.bunifuLabel10.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bunifuLabel10.ForeColor = System.Drawing.Color.White;
-            this.bunifuLabel10.Location = new System.Drawing.Point(66, 183);
-            this.bunifuLabel10.Name = "bunifuLabel10";
-            this.bunifuLabel10.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.bunifuLabel10.Size = new System.Drawing.Size(102, 20);
-            this.bunifuLabel10.TabIndex = 3;
-            this.bunifuLabel10.Text = "#Playlist name";
-            this.bunifuLabel10.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
-            this.bunifuLabel10.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.Default;
-            // 
-            // bunifuLabel11
-            // 
-            this.bunifuLabel11.AllowParentOverrides = false;
-            this.bunifuLabel11.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.bunifuLabel11.AutoEllipsis = false;
-            this.bunifuLabel11.Cursor = System.Windows.Forms.Cursors.Default;
-            this.bunifuLabel11.CursorType = System.Windows.Forms.Cursors.Default;
-            this.bunifuLabel11.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bunifuLabel11.ForeColor = System.Drawing.Color.White;
-            this.bunifuLabel11.Location = new System.Drawing.Point(66, 183);
-            this.bunifuLabel11.Name = "bunifuLabel11";
-            this.bunifuLabel11.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.bunifuLabel11.Size = new System.Drawing.Size(102, 20);
-            this.bunifuLabel11.TabIndex = 3;
-            this.bunifuLabel11.Text = "#Playlist name";
-            this.bunifuLabel11.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
-            this.bunifuLabel11.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.Default;
-            // 
-            // bunifuLabel12
-            // 
-            this.bunifuLabel12.AllowParentOverrides = false;
-            this.bunifuLabel12.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.bunifuLabel12.AutoEllipsis = false;
-            this.bunifuLabel12.Cursor = System.Windows.Forms.Cursors.Default;
-            this.bunifuLabel12.CursorType = System.Windows.Forms.Cursors.Default;
-            this.bunifuLabel12.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bunifuLabel12.ForeColor = System.Drawing.Color.White;
-            this.bunifuLabel12.Location = new System.Drawing.Point(66, 183);
-            this.bunifuLabel12.Name = "bunifuLabel12";
-            this.bunifuLabel12.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.bunifuLabel12.Size = new System.Drawing.Size(102, 20);
-            this.bunifuLabel12.TabIndex = 3;
-            this.bunifuLabel12.Text = "#Playlist name";
-            this.bunifuLabel12.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
-            this.bunifuLabel12.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.Default;
-            // 
             // Playlist
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -1337,6 +1337,7 @@
             this.Controls.Add(this.flowLayoutPanel2);
             this.Name = "Playlist";
             this.Text = "Playlist";
+            this.Load += new System.EventHandler(this.Playlist_Load);
             this.flowLayoutPanel2.ResumeLayout(false);
             this.panel8.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.bunifuPictureBox1)).EndInit();

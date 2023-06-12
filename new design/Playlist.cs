@@ -61,5 +61,10 @@ namespace new_design
                 }
             }
         }
+
+        private void Playlist_Load(object sender, EventArgs e)
+        {
+            this.WindowState = FormWindowState.Maximized;
+        }
     }
 }

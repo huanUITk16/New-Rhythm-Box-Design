@@ -71,5 +71,10 @@ namespace new_design
         {
             artistTransition.Start();
         }
+
+        private void Upload_Load(object sender, EventArgs e)
+        {
+            this.WindowState = FormWindowState.Maximized;
+        }
     }
 }

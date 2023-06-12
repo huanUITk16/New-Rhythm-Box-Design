@@ -61,5 +61,10 @@ namespace new_design
                 }
             }
         }
+
+        private void Profile_Load(object sender, EventArgs e)
+        {
+            this.WindowState = FormWindowState.Maximized;
+        }
     }
 }

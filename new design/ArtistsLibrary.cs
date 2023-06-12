@@ -66,5 +66,10 @@ namespace new_design
         {
 
         }
+
+        private void ArtistsLibrary_Load(object sender, EventArgs e)
+        {
+            this.WindowState = FormWindowState.Maximized;
+        }
     }
 }

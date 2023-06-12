@@ -89,23 +89,23 @@
             this.btn_forwardform = new Bunifu.UI.WinForms.BunifuButton.BunifuIconButton();
             this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
             this.panel15 = new System.Windows.Forms.Panel();
-            this.bunifuLabel5 = new Bunifu.UI.WinForms.BunifuLabel();
-            this.panel17 = new System.Windows.Forms.Panel();
-            this.bunifuLabel6 = new Bunifu.UI.WinForms.BunifuLabel();
-            this.artistTransition = new System.Windows.Forms.Timer(this.components);
-            this.menuTransition = new System.Windows.Forms.Timer(this.components);
             this.flowLayoutPanel3 = new System.Windows.Forms.FlowLayoutPanel();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.pictureBox5 = new System.Windows.Forms.PictureBox();
             this.pictureBox6 = new System.Windows.Forms.PictureBox();
+            this.bunifuLabel5 = new Bunifu.UI.WinForms.BunifuLabel();
+            this.panel17 = new System.Windows.Forms.Panel();
             this.flowLayoutPanel4 = new System.Windows.Forms.FlowLayoutPanel();
             this.pictureBox7 = new System.Windows.Forms.PictureBox();
             this.pictureBox8 = new System.Windows.Forms.PictureBox();
             this.pictureBox9 = new System.Windows.Forms.PictureBox();
             this.pictureBox10 = new System.Windows.Forms.PictureBox();
             this.pictureBox11 = new System.Windows.Forms.PictureBox();
+            this.bunifuLabel6 = new Bunifu.UI.WinForms.BunifuLabel();
+            this.artistTransition = new System.Windows.Forms.Timer(this.components);
+            this.menuTransition = new System.Windows.Forms.Timer(this.components);
             this.flowLayoutPanel2.SuspendLayout();
             this.panel8.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.bunifuPictureBox1)).BeginInit();
@@ -129,13 +129,13 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.flowLayoutPanel1.SuspendLayout();
             this.panel15.SuspendLayout();
-            this.panel17.SuspendLayout();
             this.flowLayoutPanel3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
+            this.panel17.SuspendLayout();
             this.flowLayoutPanel4.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
@@ -1021,57 +1021,6 @@
             this.panel15.Size = new System.Drawing.Size(1227, 294);
             this.panel15.TabIndex = 2;
             // 
-            // bunifuLabel5
-            // 
-            this.bunifuLabel5.AllowParentOverrides = false;
-            this.bunifuLabel5.AutoEllipsis = false;
-            this.bunifuLabel5.Cursor = System.Windows.Forms.Cursors.Default;
-            this.bunifuLabel5.CursorType = System.Windows.Forms.Cursors.Default;
-            this.bunifuLabel5.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.bunifuLabel5.ForeColor = System.Drawing.Color.White;
-            this.bunifuLabel5.Location = new System.Drawing.Point(18, 4);
-            this.bunifuLabel5.Name = "bunifuLabel5";
-            this.bunifuLabel5.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.bunifuLabel5.Size = new System.Drawing.Size(47, 20);
-            this.bunifuLabel5.TabIndex = 0;
-            this.bunifuLabel5.Text = "History";
-            this.bunifuLabel5.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
-            this.bunifuLabel5.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.Default;
-            // 
-            // panel17
-            // 
-            this.panel17.Controls.Add(this.flowLayoutPanel4);
-            this.panel17.Controls.Add(this.bunifuLabel6);
-            this.panel17.Location = new System.Drawing.Point(3, 303);
-            this.panel17.Name = "panel17";
-            this.panel17.Size = new System.Drawing.Size(1227, 294);
-            this.panel17.TabIndex = 3;
-            // 
-            // bunifuLabel6
-            // 
-            this.bunifuLabel6.AllowParentOverrides = false;
-            this.bunifuLabel6.AutoEllipsis = false;
-            this.bunifuLabel6.Cursor = System.Windows.Forms.Cursors.Default;
-            this.bunifuLabel6.CursorType = System.Windows.Forms.Cursors.Default;
-            this.bunifuLabel6.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.bunifuLabel6.ForeColor = System.Drawing.Color.White;
-            this.bunifuLabel6.Location = new System.Drawing.Point(18, 5);
-            this.bunifuLabel6.Name = "bunifuLabel6";
-            this.bunifuLabel6.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.bunifuLabel6.Size = new System.Drawing.Size(86, 20);
-            this.bunifuLabel6.TabIndex = 0;
-            this.bunifuLabel6.Text = "Your Playlists";
-            this.bunifuLabel6.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
-            this.bunifuLabel6.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.Default;
-            // 
-            // artistTransition
-            // 
-            this.artistTransition.Tick += new System.EventHandler(this.artistTransition_Tick);
-            // 
-            // menuTransition
-            // 
-            this.menuTransition.Tick += new System.EventHandler(this.menuTransition_Tick);
-            // 
             // flowLayoutPanel3
             // 
             this.flowLayoutPanel3.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
@@ -1125,6 +1074,32 @@
             this.pictureBox6.Size = new System.Drawing.Size(200, 165);
             this.pictureBox6.TabIndex = 12;
             this.pictureBox6.TabStop = false;
+            // 
+            // bunifuLabel5
+            // 
+            this.bunifuLabel5.AllowParentOverrides = false;
+            this.bunifuLabel5.AutoEllipsis = false;
+            this.bunifuLabel5.Cursor = System.Windows.Forms.Cursors.Default;
+            this.bunifuLabel5.CursorType = System.Windows.Forms.Cursors.Default;
+            this.bunifuLabel5.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.bunifuLabel5.ForeColor = System.Drawing.Color.White;
+            this.bunifuLabel5.Location = new System.Drawing.Point(18, 4);
+            this.bunifuLabel5.Name = "bunifuLabel5";
+            this.bunifuLabel5.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.bunifuLabel5.Size = new System.Drawing.Size(47, 20);
+            this.bunifuLabel5.TabIndex = 0;
+            this.bunifuLabel5.Text = "History";
+            this.bunifuLabel5.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
+            this.bunifuLabel5.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.Default;
+            // 
+            // panel17
+            // 
+            this.panel17.Controls.Add(this.flowLayoutPanel4);
+            this.panel17.Controls.Add(this.bunifuLabel6);
+            this.panel17.Location = new System.Drawing.Point(3, 303);
+            this.panel17.Name = "panel17";
+            this.panel17.Size = new System.Drawing.Size(1227, 294);
+            this.panel17.TabIndex = 3;
             // 
             // flowLayoutPanel4
             // 
@@ -1180,6 +1155,31 @@
             this.pictureBox11.TabIndex = 12;
             this.pictureBox11.TabStop = false;
             // 
+            // bunifuLabel6
+            // 
+            this.bunifuLabel6.AllowParentOverrides = false;
+            this.bunifuLabel6.AutoEllipsis = false;
+            this.bunifuLabel6.Cursor = System.Windows.Forms.Cursors.Default;
+            this.bunifuLabel6.CursorType = System.Windows.Forms.Cursors.Default;
+            this.bunifuLabel6.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.bunifuLabel6.ForeColor = System.Drawing.Color.White;
+            this.bunifuLabel6.Location = new System.Drawing.Point(18, 5);
+            this.bunifuLabel6.Name = "bunifuLabel6";
+            this.bunifuLabel6.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.bunifuLabel6.Size = new System.Drawing.Size(86, 20);
+            this.bunifuLabel6.TabIndex = 0;
+            this.bunifuLabel6.Text = "Your Playlists";
+            this.bunifuLabel6.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
+            this.bunifuLabel6.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.Default;
+            // 
+            // artistTransition
+            // 
+            this.artistTransition.Tick += new System.EventHandler(this.artistTransition_Tick);
+            // 
+            // menuTransition
+            // 
+            this.menuTransition.Tick += new System.EventHandler(this.menuTransition_Tick);
+            // 
             // Profile
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -1191,6 +1191,7 @@
             this.Controls.Add(this.flowLayoutPanel2);
             this.Name = "Profile";
             this.Text = "Profile";
+            this.Load += new System.EventHandler(this.Profile_Load);
             this.flowLayoutPanel2.ResumeLayout(false);
             this.panel8.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.bunifuPictureBox1)).EndInit();
@@ -1218,14 +1219,14 @@
             this.flowLayoutPanel1.ResumeLayout(false);
             this.panel15.ResumeLayout(false);
             this.panel15.PerformLayout();
-            this.panel17.ResumeLayout(false);
-            this.panel17.PerformLayout();
             this.flowLayoutPanel3.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
+            this.panel17.ResumeLayout(false);
+            this.panel17.PerformLayout();
             this.flowLayoutPanel4.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).EndInit();

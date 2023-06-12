@@ -30,17 +30,17 @@
         {
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainPageForArtists));
-            Bunifu.UI.WinForms.BunifuButton.BunifuIconButton.BorderEdges borderEdges12 = new Bunifu.UI.WinForms.BunifuButton.BunifuIconButton.BorderEdges();
-            Bunifu.UI.WinForms.BunifuButton.BunifuIconButton.BorderEdges borderEdges13 = new Bunifu.UI.WinForms.BunifuButton.BunifuIconButton.BorderEdges();
-            Bunifu.UI.WinForms.BunifuButton.BunifuIconButton.BorderEdges borderEdges14 = new Bunifu.UI.WinForms.BunifuButton.BunifuIconButton.BorderEdges();
-            Bunifu.UI.WinForms.BunifuButton.BunifuIconButton.BorderEdges borderEdges15 = new Bunifu.UI.WinForms.BunifuButton.BunifuIconButton.BorderEdges();
-            Bunifu.UI.WinForms.BunifuButton.BunifuIconButton.BorderEdges borderEdges16 = new Bunifu.UI.WinForms.BunifuButton.BunifuIconButton.BorderEdges();
-            Bunifu.UI.WinForms.BunifuButton.BunifuIconButton.BorderEdges borderEdges17 = new Bunifu.UI.WinForms.BunifuButton.BunifuIconButton.BorderEdges();
-            Bunifu.UI.WinForms.BunifuButton.BunifuIconButton.BorderEdges borderEdges18 = new Bunifu.UI.WinForms.BunifuButton.BunifuIconButton.BorderEdges();
-            Bunifu.UI.WinForms.BunifuButton.BunifuIconButton.BorderEdges borderEdges19 = new Bunifu.UI.WinForms.BunifuButton.BunifuIconButton.BorderEdges();
-            Bunifu.UI.WinForms.BunifuButton.BunifuIconButton.BorderEdges borderEdges20 = new Bunifu.UI.WinForms.BunifuButton.BunifuIconButton.BorderEdges();
-            Bunifu.UI.WinForms.BunifuButton.BunifuIconButton.BorderEdges borderEdges22 = new Bunifu.UI.WinForms.BunifuButton.BunifuIconButton.BorderEdges();
-            Bunifu.UI.WinForms.BunifuButton.BunifuIconButton.BorderEdges borderEdges21 = new Bunifu.UI.WinForms.BunifuButton.BunifuIconButton.BorderEdges();
+            Bunifu.UI.WinForms.BunifuButton.BunifuIconButton.BorderEdges borderEdges133 = new Bunifu.UI.WinForms.BunifuButton.BunifuIconButton.BorderEdges();
+            Bunifu.UI.WinForms.BunifuButton.BunifuIconButton.BorderEdges borderEdges134 = new Bunifu.UI.WinForms.BunifuButton.BunifuIconButton.BorderEdges();
+            Bunifu.UI.WinForms.BunifuButton.BunifuIconButton.BorderEdges borderEdges135 = new Bunifu.UI.WinForms.BunifuButton.BunifuIconButton.BorderEdges();
+            Bunifu.UI.WinForms.BunifuButton.BunifuIconButton.BorderEdges borderEdges136 = new Bunifu.UI.WinForms.BunifuButton.BunifuIconButton.BorderEdges();
+            Bunifu.UI.WinForms.BunifuButton.BunifuIconButton.BorderEdges borderEdges137 = new Bunifu.UI.WinForms.BunifuButton.BunifuIconButton.BorderEdges();
+            Bunifu.UI.WinForms.BunifuButton.BunifuIconButton.BorderEdges borderEdges138 = new Bunifu.UI.WinForms.BunifuButton.BunifuIconButton.BorderEdges();
+            Bunifu.UI.WinForms.BunifuButton.BunifuIconButton.BorderEdges borderEdges139 = new Bunifu.UI.WinForms.BunifuButton.BunifuIconButton.BorderEdges();
+            Bunifu.UI.WinForms.BunifuButton.BunifuIconButton.BorderEdges borderEdges140 = new Bunifu.UI.WinForms.BunifuButton.BunifuIconButton.BorderEdges();
+            Bunifu.UI.WinForms.BunifuButton.BunifuIconButton.BorderEdges borderEdges141 = new Bunifu.UI.WinForms.BunifuButton.BunifuIconButton.BorderEdges();
+            Bunifu.UI.WinForms.BunifuButton.BunifuIconButton.BorderEdges borderEdges142 = new Bunifu.UI.WinForms.BunifuButton.BunifuIconButton.BorderEdges();
+            Bunifu.UI.WinForms.BunifuButton.BunifuIconButton.BorderEdges borderEdges143 = new Bunifu.UI.WinForms.BunifuButton.BunifuIconButton.BorderEdges();
             this.flowLayoutPanel2 = new System.Windows.Forms.FlowLayoutPanel();
             this.panel8 = new System.Windows.Forms.Panel();
             this.bunifuPictureBox1 = new Bunifu.UI.WinForms.BunifuPictureBox();
@@ -238,11 +238,11 @@
             this.btn_shuffle.ColorContrastOnClick = 30;
             this.btn_shuffle.ColorContrastOnHover = 30;
             this.btn_shuffle.Cursor = System.Windows.Forms.Cursors.Default;
-            borderEdges12.BottomLeft = true;
-            borderEdges12.BottomRight = true;
-            borderEdges12.TopLeft = true;
-            borderEdges12.TopRight = true;
-            this.btn_shuffle.CustomizableEdges = borderEdges12;
+            borderEdges133.BottomLeft = true;
+            borderEdges133.BottomRight = true;
+            borderEdges133.TopLeft = true;
+            borderEdges133.TopRight = true;
+            this.btn_shuffle.CustomizableEdges = borderEdges133;
             this.btn_shuffle.DialogResult = System.Windows.Forms.DialogResult.None;
             this.btn_shuffle.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(9)))), ((int)(((byte)(54)))), ((int)(((byte)(71)))));
             this.btn_shuffle.Image = ((System.Drawing.Image)(resources.GetObject("btn_shuffle.Image")));
@@ -317,11 +317,11 @@
             this.btn_play.ColorContrastOnClick = 30;
             this.btn_play.ColorContrastOnHover = 30;
             this.btn_play.Cursor = System.Windows.Forms.Cursors.Default;
-            borderEdges13.BottomLeft = true;
-            borderEdges13.BottomRight = true;
-            borderEdges13.TopLeft = true;
-            borderEdges13.TopRight = true;
-            this.btn_play.CustomizableEdges = borderEdges13;
+            borderEdges134.BottomLeft = true;
+            borderEdges134.BottomRight = true;
+            borderEdges134.TopLeft = true;
+            borderEdges134.TopRight = true;
+            this.btn_play.CustomizableEdges = borderEdges134;
             this.btn_play.DialogResult = System.Windows.Forms.DialogResult.None;
             this.btn_play.Image = ((System.Drawing.Image)(resources.GetObject("btn_play.Image")));
             this.btn_play.ImageMargin = new System.Windows.Forms.Padding(0);
@@ -348,11 +348,11 @@
             this.btn_next.ColorContrastOnClick = 30;
             this.btn_next.ColorContrastOnHover = 30;
             this.btn_next.Cursor = System.Windows.Forms.Cursors.Default;
-            borderEdges14.BottomLeft = true;
-            borderEdges14.BottomRight = true;
-            borderEdges14.TopLeft = true;
-            borderEdges14.TopRight = true;
-            this.btn_next.CustomizableEdges = borderEdges14;
+            borderEdges135.BottomLeft = true;
+            borderEdges135.BottomRight = true;
+            borderEdges135.TopLeft = true;
+            borderEdges135.TopRight = true;
+            this.btn_next.CustomizableEdges = borderEdges135;
             this.btn_next.DialogResult = System.Windows.Forms.DialogResult.None;
             this.btn_next.Image = ((System.Drawing.Image)(resources.GetObject("btn_next.Image")));
             this.btn_next.ImageMargin = new System.Windows.Forms.Padding(0);
@@ -379,11 +379,11 @@
             this.btn_stop.ColorContrastOnClick = 30;
             this.btn_stop.ColorContrastOnHover = 30;
             this.btn_stop.Cursor = System.Windows.Forms.Cursors.Default;
-            borderEdges15.BottomLeft = true;
-            borderEdges15.BottomRight = true;
-            borderEdges15.TopLeft = true;
-            borderEdges15.TopRight = true;
-            this.btn_stop.CustomizableEdges = borderEdges15;
+            borderEdges136.BottomLeft = true;
+            borderEdges136.BottomRight = true;
+            borderEdges136.TopLeft = true;
+            borderEdges136.TopRight = true;
+            this.btn_stop.CustomizableEdges = borderEdges136;
             this.btn_stop.DialogResult = System.Windows.Forms.DialogResult.None;
             this.btn_stop.Image = ((System.Drawing.Image)(resources.GetObject("btn_stop.Image")));
             this.btn_stop.ImageMargin = new System.Windows.Forms.Padding(0);
@@ -410,11 +410,11 @@
             this.btn_repeat.ColorContrastOnClick = 30;
             this.btn_repeat.ColorContrastOnHover = 30;
             this.btn_repeat.Cursor = System.Windows.Forms.Cursors.Default;
-            borderEdges16.BottomLeft = true;
-            borderEdges16.BottomRight = true;
-            borderEdges16.TopLeft = true;
-            borderEdges16.TopRight = true;
-            this.btn_repeat.CustomizableEdges = borderEdges16;
+            borderEdges137.BottomLeft = true;
+            borderEdges137.BottomRight = true;
+            borderEdges137.TopLeft = true;
+            borderEdges137.TopRight = true;
+            this.btn_repeat.CustomizableEdges = borderEdges137;
             this.btn_repeat.DialogResult = System.Windows.Forms.DialogResult.None;
             this.btn_repeat.Image = ((System.Drawing.Image)(resources.GetObject("btn_repeat.Image")));
             this.btn_repeat.ImageMargin = new System.Windows.Forms.Padding(0);
@@ -441,11 +441,11 @@
             this.btn_previous.ColorContrastOnClick = 30;
             this.btn_previous.ColorContrastOnHover = 30;
             this.btn_previous.Cursor = System.Windows.Forms.Cursors.Default;
-            borderEdges17.BottomLeft = true;
-            borderEdges17.BottomRight = true;
-            borderEdges17.TopLeft = true;
-            borderEdges17.TopRight = true;
-            this.btn_previous.CustomizableEdges = borderEdges17;
+            borderEdges138.BottomLeft = true;
+            borderEdges138.BottomRight = true;
+            borderEdges138.TopLeft = true;
+            borderEdges138.TopRight = true;
+            this.btn_previous.CustomizableEdges = borderEdges138;
             this.btn_previous.DialogResult = System.Windows.Forms.DialogResult.None;
             this.btn_previous.Image = ((System.Drawing.Image)(resources.GetObject("btn_previous.Image")));
             this.btn_previous.ImageMargin = new System.Windows.Forms.Padding(0);
@@ -501,11 +501,11 @@
             this.btn_search.ColorContrastOnClick = 30;
             this.btn_search.ColorContrastOnHover = 30;
             this.btn_search.Cursor = System.Windows.Forms.Cursors.Default;
-            borderEdges18.BottomLeft = true;
-            borderEdges18.BottomRight = true;
-            borderEdges18.TopLeft = true;
-            borderEdges18.TopRight = true;
-            this.btn_search.CustomizableEdges = borderEdges18;
+            borderEdges139.BottomLeft = true;
+            borderEdges139.BottomRight = true;
+            borderEdges139.TopLeft = true;
+            borderEdges139.TopRight = true;
+            this.btn_search.CustomizableEdges = borderEdges139;
             this.btn_search.DialogResult = System.Windows.Forms.DialogResult.None;
             this.btn_search.Image = ((System.Drawing.Image)(resources.GetObject("btn_search.Image")));
             this.btn_search.ImageMargin = new System.Windows.Forms.Padding(0);
@@ -532,11 +532,11 @@
             this.btn_menu.ColorContrastOnClick = 30;
             this.btn_menu.ColorContrastOnHover = 30;
             this.btn_menu.Cursor = System.Windows.Forms.Cursors.Hand;
-            borderEdges19.BottomLeft = true;
-            borderEdges19.BottomRight = true;
-            borderEdges19.TopLeft = true;
-            borderEdges19.TopRight = true;
-            this.btn_menu.CustomizableEdges = borderEdges19;
+            borderEdges140.BottomLeft = true;
+            borderEdges140.BottomRight = true;
+            borderEdges140.TopLeft = true;
+            borderEdges140.TopRight = true;
+            this.btn_menu.CustomizableEdges = borderEdges140;
             this.btn_menu.DialogResult = System.Windows.Forms.DialogResult.None;
             this.btn_menu.Image = ((System.Drawing.Image)(resources.GetObject("btn_menu.Image")));
             this.btn_menu.ImageMargin = new System.Windows.Forms.Padding(0);
@@ -587,7 +587,7 @@
             this.userContainer.Controls.Add(this.panel5);
             this.userContainer.Location = new System.Drawing.Point(3, 118);
             this.userContainer.Name = "userContainer";
-            this.userContainer.Size = new System.Drawing.Size(257, 60);
+            this.userContainer.Size = new System.Drawing.Size(257, 350);
             this.userContainer.TabIndex = 3;
             // 
             // panel_user
@@ -645,6 +645,7 @@
             this.btn_profile.Text = "              Profile";
             this.btn_profile.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btn_profile.UseVisualStyleBackColor = false;
+            this.btn_profile.Click += new System.EventHandler(this.btn_profile_Click_1);
             // 
             // panel_Logout
             // 
@@ -765,7 +766,7 @@
             this.bunifuLabel8.CursorType = System.Windows.Forms.Cursors.Default;
             this.bunifuLabel8.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bunifuLabel8.ForeColor = System.Drawing.Color.White;
-            this.bunifuLabel8.Location = new System.Drawing.Point(3, 184);
+            this.bunifuLabel8.Location = new System.Drawing.Point(3, 474);
             this.bunifuLabel8.Name = "bunifuLabel8";
             this.bunifuLabel8.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.bunifuLabel8.Size = new System.Drawing.Size(69, 23);
@@ -777,7 +778,7 @@
             // panel_Album
             // 
             this.panel_Album.Controls.Add(this.btn_album);
-            this.panel_Album.Location = new System.Drawing.Point(3, 213);
+            this.panel_Album.Location = new System.Drawing.Point(3, 503);
             this.panel_Album.Name = "panel_Album";
             this.panel_Album.Padding = new System.Windows.Forms.Padding(25, 0, 0, 0);
             this.panel_Album.Size = new System.Drawing.Size(257, 51);
@@ -804,7 +805,7 @@
             // panel_Artist
             // 
             this.panel_Artist.Controls.Add(this.btn_artist);
-            this.panel_Artist.Location = new System.Drawing.Point(3, 270);
+            this.panel_Artist.Location = new System.Drawing.Point(3, 560);
             this.panel_Artist.Name = "panel_Artist";
             this.panel_Artist.Padding = new System.Windows.Forms.Padding(25, 0, 0, 0);
             this.panel_Artist.Size = new System.Drawing.Size(257, 51);
@@ -831,7 +832,7 @@
             // panel6
             // 
             this.panel6.Controls.Add(this.btn_playlist);
-            this.panel6.Location = new System.Drawing.Point(3, 327);
+            this.panel6.Location = new System.Drawing.Point(3, 617);
             this.panel6.Name = "panel6";
             this.panel6.Padding = new System.Windows.Forms.Padding(25, 0, 0, 0);
             this.panel6.Size = new System.Drawing.Size(257, 51);
@@ -882,11 +883,11 @@
             this.btn_backform.ColorContrastOnClick = 30;
             this.btn_backform.ColorContrastOnHover = 30;
             this.btn_backform.Cursor = System.Windows.Forms.Cursors.Default;
-            borderEdges20.BottomLeft = true;
-            borderEdges20.BottomRight = true;
-            borderEdges20.TopLeft = true;
-            borderEdges20.TopRight = true;
-            this.btn_backform.CustomizableEdges = borderEdges20;
+            borderEdges141.BottomLeft = true;
+            borderEdges141.BottomRight = true;
+            borderEdges141.TopLeft = true;
+            borderEdges141.TopRight = true;
+            this.btn_backform.CustomizableEdges = borderEdges141;
             this.btn_backform.DialogResult = System.Windows.Forms.DialogResult.None;
             this.btn_backform.Image = ((System.Drawing.Image)(resources.GetObject("btn_backform.Image")));
             this.btn_backform.ImageMargin = new System.Windows.Forms.Padding(0);
@@ -938,11 +939,11 @@
             this.bunifuIconButton1.ColorContrastOnClick = 30;
             this.bunifuIconButton1.ColorContrastOnHover = 30;
             this.bunifuIconButton1.Cursor = System.Windows.Forms.Cursors.Default;
-            borderEdges22.BottomLeft = true;
-            borderEdges22.BottomRight = true;
-            borderEdges22.TopLeft = true;
-            borderEdges22.TopRight = true;
-            this.bunifuIconButton1.CustomizableEdges = borderEdges22;
+            borderEdges142.BottomLeft = true;
+            borderEdges142.BottomRight = true;
+            borderEdges142.TopLeft = true;
+            borderEdges142.TopRight = true;
+            this.bunifuIconButton1.CustomizableEdges = borderEdges142;
             this.bunifuIconButton1.DialogResult = System.Windows.Forms.DialogResult.None;
             this.bunifuIconButton1.Image = ((System.Drawing.Image)(resources.GetObject("bunifuIconButton1.Image")));
             this.bunifuIconButton1.ImageMargin = new System.Windows.Forms.Padding(0);
@@ -1014,11 +1015,11 @@
             this.btn_forwardform.ColorContrastOnClick = 30;
             this.btn_forwardform.ColorContrastOnHover = 30;
             this.btn_forwardform.Cursor = System.Windows.Forms.Cursors.Default;
-            borderEdges21.BottomLeft = true;
-            borderEdges21.BottomRight = true;
-            borderEdges21.TopLeft = true;
-            borderEdges21.TopRight = true;
-            this.btn_forwardform.CustomizableEdges = borderEdges21;
+            borderEdges143.BottomLeft = true;
+            borderEdges143.BottomRight = true;
+            borderEdges143.TopLeft = true;
+            borderEdges143.TopRight = true;
+            this.btn_forwardform.CustomizableEdges = borderEdges143;
             this.btn_forwardform.DialogResult = System.Windows.Forms.DialogResult.None;
             this.btn_forwardform.Image = ((System.Drawing.Image)(resources.GetObject("btn_forwardform.Image")));
             this.btn_forwardform.ImageMargin = new System.Windows.Forms.Padding(0);

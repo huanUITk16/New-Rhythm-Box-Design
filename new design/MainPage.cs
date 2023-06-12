@@ -5,6 +5,7 @@ using System.Data;
 using System.Drawing;
 using System.Linq;
 using System.Runtime.InteropServices;
+using System.ServiceModel.Channels;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -14,7 +15,7 @@ namespace new_design
     public partial class MainPage : Form
     {
         private Size formOriginalSize;
-        
+
         public MainPage()
         {
             InitializeComponent();
@@ -22,7 +23,7 @@ namespace new_design
         private int borderSize = 2;
         private Size formSize;
         private Panel leftBorderBtn;
-       
+
         private struct RGBColors
         {
             public static Color color1 = Color.FromArgb(172, 126, 241);
@@ -59,7 +60,7 @@ namespace new_design
                     break;
             }
         }
-          
+
 
         private void btnExit_Click(object sender, EventArgs e)
         {
@@ -84,7 +85,7 @@ namespace new_design
             else
                 FormBorderStyle = FormBorderStyle.Sizable;
         }
-       
+
         private void button1_Click(object sender, EventArgs e)
         {
 
@@ -97,12 +98,12 @@ namespace new_design
         bool userExpand = true;
         private void menu_transition_Tick(object sender, EventArgs e)
         {
-            
+
         }
 
         private void btn_user_Click(object sender, EventArgs e)
         {
-           
+
         }
 
         private void btn_user_Click_1(object sender, EventArgs e)
@@ -115,7 +116,7 @@ namespace new_design
             if (userExpand == false)
             {
                 userContainer.Height += 10;
-                if (userContainer.Height >= 173)
+                if (userContainer.Height >= 160)
                 {
                     userTransition.Stop();
                     userExpand = true;
@@ -148,7 +149,7 @@ namespace new_design
                     menuTransition.Stop();
                 }
             }
-            else 
+            else
             {
                 menuPanel.Width += 10;
                 if (menuPanel.Width >= 200)
@@ -157,9 +158,10 @@ namespace new_design
                     menuTransition.Stop();
                 }
             }
-                
-            }
 
+        }
+        
+        
         private void bunifuHSlider1_Scroll(object sender, Utilities.BunifuSlider.BunifuHScrollBar.ScrollEventArgs e)
         {
 
@@ -167,7 +169,7 @@ namespace new_design
 
         private void Form1_Load(object sender, EventArgs e)
         {
-
+            this.WindowState = FormWindowState.Maximized;
         }
 
         private void bunifuLabel2_Click(object sender, EventArgs e)
@@ -189,6 +191,30 @@ namespace new_design
         {
 
         }
+
+        private void btn_profile_Click(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void btn_settings_Click(object sender, EventArgs e)
+        {
+            new Settings().Show();
+            this.Hide();
+        }
+
+        private void btn_album_Click(object sender, EventArgs e)
+        {
+            new Album().Show();
+            this.Hide();
+        }
+
+        private void btn_artist_Click(object sender, EventArgs e)
+        {
+            new ArtistsLibrary().Show();
+            this.Hide();
+        }
+        
     }
     }
 

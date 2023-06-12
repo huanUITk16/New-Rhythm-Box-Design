@@ -30,17 +30,17 @@
         {
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Settings));
-            Bunifu.UI.WinForms.BunifuButton.BunifuIconButton.BorderEdges borderEdges33 = new Bunifu.UI.WinForms.BunifuButton.BunifuIconButton.BorderEdges();
-            Bunifu.UI.WinForms.BunifuButton.BunifuIconButton.BorderEdges borderEdges34 = new Bunifu.UI.WinForms.BunifuButton.BunifuIconButton.BorderEdges();
-            Bunifu.UI.WinForms.BunifuButton.BunifuIconButton.BorderEdges borderEdges35 = new Bunifu.UI.WinForms.BunifuButton.BunifuIconButton.BorderEdges();
-            Bunifu.UI.WinForms.BunifuButton.BunifuIconButton.BorderEdges borderEdges36 = new Bunifu.UI.WinForms.BunifuButton.BunifuIconButton.BorderEdges();
-            Bunifu.UI.WinForms.BunifuButton.BunifuIconButton.BorderEdges borderEdges37 = new Bunifu.UI.WinForms.BunifuButton.BunifuIconButton.BorderEdges();
-            Bunifu.UI.WinForms.BunifuButton.BunifuIconButton.BorderEdges borderEdges38 = new Bunifu.UI.WinForms.BunifuButton.BunifuIconButton.BorderEdges();
-            Bunifu.UI.WinForms.BunifuButton.BunifuIconButton.BorderEdges borderEdges39 = new Bunifu.UI.WinForms.BunifuButton.BunifuIconButton.BorderEdges();
-            Bunifu.UI.WinForms.BunifuButton.BunifuIconButton.BorderEdges borderEdges40 = new Bunifu.UI.WinForms.BunifuButton.BunifuIconButton.BorderEdges();
-            Bunifu.UI.WinForms.BunifuToggleSwitch.ToggleState toggleState13 = new Bunifu.UI.WinForms.BunifuToggleSwitch.ToggleState();
-            Bunifu.UI.WinForms.BunifuToggleSwitch.ToggleState toggleState14 = new Bunifu.UI.WinForms.BunifuToggleSwitch.ToggleState();
-            Bunifu.UI.WinForms.BunifuToggleSwitch.ToggleState toggleState15 = new Bunifu.UI.WinForms.BunifuToggleSwitch.ToggleState();
+            Bunifu.UI.WinForms.BunifuButton.BunifuIconButton.BorderEdges borderEdges1 = new Bunifu.UI.WinForms.BunifuButton.BunifuIconButton.BorderEdges();
+            Bunifu.UI.WinForms.BunifuButton.BunifuIconButton.BorderEdges borderEdges2 = new Bunifu.UI.WinForms.BunifuButton.BunifuIconButton.BorderEdges();
+            Bunifu.UI.WinForms.BunifuButton.BunifuIconButton.BorderEdges borderEdges3 = new Bunifu.UI.WinForms.BunifuButton.BunifuIconButton.BorderEdges();
+            Bunifu.UI.WinForms.BunifuButton.BunifuIconButton.BorderEdges borderEdges4 = new Bunifu.UI.WinForms.BunifuButton.BunifuIconButton.BorderEdges();
+            Bunifu.UI.WinForms.BunifuButton.BunifuIconButton.BorderEdges borderEdges5 = new Bunifu.UI.WinForms.BunifuButton.BunifuIconButton.BorderEdges();
+            Bunifu.UI.WinForms.BunifuButton.BunifuIconButton.BorderEdges borderEdges6 = new Bunifu.UI.WinForms.BunifuButton.BunifuIconButton.BorderEdges();
+            Bunifu.UI.WinForms.BunifuButton.BunifuIconButton.BorderEdges borderEdges7 = new Bunifu.UI.WinForms.BunifuButton.BunifuIconButton.BorderEdges();
+            Bunifu.UI.WinForms.BunifuButton.BunifuIconButton.BorderEdges borderEdges8 = new Bunifu.UI.WinForms.BunifuButton.BunifuIconButton.BorderEdges();
+            Bunifu.UI.WinForms.BunifuToggleSwitch.ToggleState toggleState1 = new Bunifu.UI.WinForms.BunifuToggleSwitch.ToggleState();
+            Bunifu.UI.WinForms.BunifuToggleSwitch.ToggleState toggleState2 = new Bunifu.UI.WinForms.BunifuToggleSwitch.ToggleState();
+            Bunifu.UI.WinForms.BunifuToggleSwitch.ToggleState toggleState3 = new Bunifu.UI.WinForms.BunifuToggleSwitch.ToggleState();
             this.flowLayoutPanel2 = new System.Windows.Forms.FlowLayoutPanel();
             this.panel8 = new System.Windows.Forms.Panel();
             this.bunifuPictureBox1 = new Bunifu.UI.WinForms.BunifuPictureBox();
@@ -82,16 +82,16 @@
             this.panel6 = new System.Windows.Forms.Panel();
             this.btn_playlist = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.label2 = new System.Windows.Forms.Label();
-            this.bunifuLabel1 = new Bunifu.UI.WinForms.BunifuLabel();
-            this.bunifuLabel4 = new Bunifu.UI.WinForms.BunifuLabel();
-            this.bunifuLabel5 = new Bunifu.UI.WinForms.BunifuLabel();
+            this.label3 = new System.Windows.Forms.Label();
+            this.button1 = new System.Windows.Forms.Button();
+            this.switchAutoPlay = new Bunifu.UI.WinForms.BunifuToggleSwitch();
             this.label1 = new System.Windows.Forms.Label();
+            this.bunifuLabel5 = new Bunifu.UI.WinForms.BunifuLabel();
+            this.bunifuLabel4 = new Bunifu.UI.WinForms.BunifuLabel();
+            this.bunifuLabel1 = new Bunifu.UI.WinForms.BunifuLabel();
+            this.label2 = new System.Windows.Forms.Label();
             this.artistTransition = new System.Windows.Forms.Timer(this.components);
             this.menuTransition = new System.Windows.Forms.Timer(this.components);
-            this.switchAutoPlay = new Bunifu.UI.WinForms.BunifuToggleSwitch();
-            this.button1 = new System.Windows.Forms.Button();
-            this.label3 = new System.Windows.Forms.Label();
             this.flowLayoutPanel2.SuspendLayout();
             this.panel8.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.bunifuPictureBox1)).BeginInit();
@@ -225,11 +225,11 @@
             this.btn_shuffle.ColorContrastOnClick = 30;
             this.btn_shuffle.ColorContrastOnHover = 30;
             this.btn_shuffle.Cursor = System.Windows.Forms.Cursors.Default;
-            borderEdges33.BottomLeft = true;
-            borderEdges33.BottomRight = true;
-            borderEdges33.TopLeft = true;
-            borderEdges33.TopRight = true;
-            this.btn_shuffle.CustomizableEdges = borderEdges33;
+            borderEdges1.BottomLeft = true;
+            borderEdges1.BottomRight = true;
+            borderEdges1.TopLeft = true;
+            borderEdges1.TopRight = true;
+            this.btn_shuffle.CustomizableEdges = borderEdges1;
             this.btn_shuffle.DialogResult = System.Windows.Forms.DialogResult.None;
             this.btn_shuffle.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(9)))), ((int)(((byte)(54)))), ((int)(((byte)(71)))));
             this.btn_shuffle.Image = ((System.Drawing.Image)(resources.GetObject("btn_shuffle.Image")));
@@ -304,11 +304,11 @@
             this.btn_play.ColorContrastOnClick = 30;
             this.btn_play.ColorContrastOnHover = 30;
             this.btn_play.Cursor = System.Windows.Forms.Cursors.Default;
-            borderEdges34.BottomLeft = true;
-            borderEdges34.BottomRight = true;
-            borderEdges34.TopLeft = true;
-            borderEdges34.TopRight = true;
-            this.btn_play.CustomizableEdges = borderEdges34;
+            borderEdges2.BottomLeft = true;
+            borderEdges2.BottomRight = true;
+            borderEdges2.TopLeft = true;
+            borderEdges2.TopRight = true;
+            this.btn_play.CustomizableEdges = borderEdges2;
             this.btn_play.DialogResult = System.Windows.Forms.DialogResult.None;
             this.btn_play.Image = ((System.Drawing.Image)(resources.GetObject("btn_play.Image")));
             this.btn_play.ImageMargin = new System.Windows.Forms.Padding(0);
@@ -335,11 +335,11 @@
             this.btn_next.ColorContrastOnClick = 30;
             this.btn_next.ColorContrastOnHover = 30;
             this.btn_next.Cursor = System.Windows.Forms.Cursors.Default;
-            borderEdges35.BottomLeft = true;
-            borderEdges35.BottomRight = true;
-            borderEdges35.TopLeft = true;
-            borderEdges35.TopRight = true;
-            this.btn_next.CustomizableEdges = borderEdges35;
+            borderEdges3.BottomLeft = true;
+            borderEdges3.BottomRight = true;
+            borderEdges3.TopLeft = true;
+            borderEdges3.TopRight = true;
+            this.btn_next.CustomizableEdges = borderEdges3;
             this.btn_next.DialogResult = System.Windows.Forms.DialogResult.None;
             this.btn_next.Image = ((System.Drawing.Image)(resources.GetObject("btn_next.Image")));
             this.btn_next.ImageMargin = new System.Windows.Forms.Padding(0);
@@ -366,11 +366,11 @@
             this.btn_stop.ColorContrastOnClick = 30;
             this.btn_stop.ColorContrastOnHover = 30;
             this.btn_stop.Cursor = System.Windows.Forms.Cursors.Default;
-            borderEdges36.BottomLeft = true;
-            borderEdges36.BottomRight = true;
-            borderEdges36.TopLeft = true;
-            borderEdges36.TopRight = true;
-            this.btn_stop.CustomizableEdges = borderEdges36;
+            borderEdges4.BottomLeft = true;
+            borderEdges4.BottomRight = true;
+            borderEdges4.TopLeft = true;
+            borderEdges4.TopRight = true;
+            this.btn_stop.CustomizableEdges = borderEdges4;
             this.btn_stop.DialogResult = System.Windows.Forms.DialogResult.None;
             this.btn_stop.Image = ((System.Drawing.Image)(resources.GetObject("btn_stop.Image")));
             this.btn_stop.ImageMargin = new System.Windows.Forms.Padding(0);
@@ -397,11 +397,11 @@
             this.btn_repeat.ColorContrastOnClick = 30;
             this.btn_repeat.ColorContrastOnHover = 30;
             this.btn_repeat.Cursor = System.Windows.Forms.Cursors.Default;
-            borderEdges37.BottomLeft = true;
-            borderEdges37.BottomRight = true;
-            borderEdges37.TopLeft = true;
-            borderEdges37.TopRight = true;
-            this.btn_repeat.CustomizableEdges = borderEdges37;
+            borderEdges5.BottomLeft = true;
+            borderEdges5.BottomRight = true;
+            borderEdges5.TopLeft = true;
+            borderEdges5.TopRight = true;
+            this.btn_repeat.CustomizableEdges = borderEdges5;
             this.btn_repeat.DialogResult = System.Windows.Forms.DialogResult.None;
             this.btn_repeat.Image = ((System.Drawing.Image)(resources.GetObject("btn_repeat.Image")));
             this.btn_repeat.ImageMargin = new System.Windows.Forms.Padding(0);
@@ -428,11 +428,11 @@
             this.btn_previous.ColorContrastOnClick = 30;
             this.btn_previous.ColorContrastOnHover = 30;
             this.btn_previous.Cursor = System.Windows.Forms.Cursors.Default;
-            borderEdges38.BottomLeft = true;
-            borderEdges38.BottomRight = true;
-            borderEdges38.TopLeft = true;
-            borderEdges38.TopRight = true;
-            this.btn_previous.CustomizableEdges = borderEdges38;
+            borderEdges6.BottomLeft = true;
+            borderEdges6.BottomRight = true;
+            borderEdges6.TopLeft = true;
+            borderEdges6.TopRight = true;
+            this.btn_previous.CustomizableEdges = borderEdges6;
             this.btn_previous.DialogResult = System.Windows.Forms.DialogResult.None;
             this.btn_previous.Image = ((System.Drawing.Image)(resources.GetObject("btn_previous.Image")));
             this.btn_previous.ImageMargin = new System.Windows.Forms.Padding(0);
@@ -488,11 +488,11 @@
             this.btn_search.ColorContrastOnClick = 30;
             this.btn_search.ColorContrastOnHover = 30;
             this.btn_search.Cursor = System.Windows.Forms.Cursors.Default;
-            borderEdges39.BottomLeft = true;
-            borderEdges39.BottomRight = true;
-            borderEdges39.TopLeft = true;
-            borderEdges39.TopRight = true;
-            this.btn_search.CustomizableEdges = borderEdges39;
+            borderEdges7.BottomLeft = true;
+            borderEdges7.BottomRight = true;
+            borderEdges7.TopLeft = true;
+            borderEdges7.TopRight = true;
+            this.btn_search.CustomizableEdges = borderEdges7;
             this.btn_search.DialogResult = System.Windows.Forms.DialogResult.None;
             this.btn_search.Image = ((System.Drawing.Image)(resources.GetObject("btn_search.Image")));
             this.btn_search.ImageMargin = new System.Windows.Forms.Padding(0);
@@ -519,11 +519,11 @@
             this.btn_menu.ColorContrastOnClick = 30;
             this.btn_menu.ColorContrastOnHover = 30;
             this.btn_menu.Cursor = System.Windows.Forms.Cursors.Hand;
-            borderEdges40.BottomLeft = true;
-            borderEdges40.BottomRight = true;
-            borderEdges40.TopLeft = true;
-            borderEdges40.TopRight = true;
-            this.btn_menu.CustomizableEdges = borderEdges40;
+            borderEdges8.BottomLeft = true;
+            borderEdges8.BottomRight = true;
+            borderEdges8.TopLeft = true;
+            borderEdges8.TopRight = true;
+            this.btn_menu.CustomizableEdges = borderEdges8;
             this.btn_menu.DialogResult = System.Windows.Forms.DialogResult.None;
             this.btn_menu.Image = ((System.Drawing.Image)(resources.GetObject("btn_menu.Image")));
             this.btn_menu.ImageMargin = new System.Windows.Forms.Padding(0);
@@ -859,52 +859,77 @@
             this.panel1.Size = new System.Drawing.Size(1207, 597);
             this.panel1.TabIndex = 9;
             // 
-            // label2
+            // label3
             // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(101, 116);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(59, 17);
-            this.label2.TabIndex = 1;
-            this.label2.Text = "Location";
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(101, 140);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(90, 17);
+            this.label3.TabIndex = 11;
+            this.label3.Text = "Location here";
             // 
-            // bunifuLabel1
+            // button1
             // 
-            this.bunifuLabel1.AllowParentOverrides = false;
-            this.bunifuLabel1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.bunifuLabel1.AutoEllipsis = false;
-            this.bunifuLabel1.Cursor = System.Windows.Forms.Cursors.Default;
-            this.bunifuLabel1.CursorType = System.Windows.Forms.Cursors.Default;
-            this.bunifuLabel1.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bunifuLabel1.ForeColor = System.Drawing.Color.White;
-            this.bunifuLabel1.Location = new System.Drawing.Point(53, 28);
-            this.bunifuLabel1.Name = "bunifuLabel1";
-            this.bunifuLabel1.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.bunifuLabel1.Size = new System.Drawing.Size(93, 28);
-            this.bunifuLabel1.TabIndex = 3;
-            this.bunifuLabel1.Text = "SETTINGS";
-            this.bunifuLabel1.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
-            this.bunifuLabel1.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.Default;
+            this.button1.ForeColor = System.Drawing.Color.Black;
+            this.button1.Location = new System.Drawing.Point(574, 130);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(136, 36);
+            this.button1.TabIndex = 10;
+            this.button1.Text = "Change location";
+            this.button1.UseVisualStyleBackColor = true;
             // 
-            // bunifuLabel4
+            // switchAutoPlay
             // 
-            this.bunifuLabel4.AllowParentOverrides = false;
-            this.bunifuLabel4.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.bunifuLabel4.AutoEllipsis = false;
-            this.bunifuLabel4.Cursor = System.Windows.Forms.Cursors.Default;
-            this.bunifuLabel4.CursorType = System.Windows.Forms.Cursors.Default;
-            this.bunifuLabel4.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bunifuLabel4.ForeColor = System.Drawing.Color.White;
-            this.bunifuLabel4.Location = new System.Drawing.Point(53, 90);
-            this.bunifuLabel4.Name = "bunifuLabel4";
-            this.bunifuLabel4.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.bunifuLabel4.Size = new System.Drawing.Size(103, 23);
-            this.bunifuLabel4.TabIndex = 4;
-            this.bunifuLabel4.Text = "DOWNLOAD";
-            this.bunifuLabel4.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
-            this.bunifuLabel4.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.Default;
+            this.switchAutoPlay.Animation = 5;
+            this.switchAutoPlay.AnimationSpeed = 5;
+            this.switchAutoPlay.BackColor = System.Drawing.Color.Transparent;
+            this.switchAutoPlay.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("switchAutoPlay.BackgroundImage")));
+            this.switchAutoPlay.Checked = true;
+            this.switchAutoPlay.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.switchAutoPlay.InnerCirclePadding = 3;
+            this.switchAutoPlay.Location = new System.Drawing.Point(528, 218);
+            this.switchAutoPlay.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.switchAutoPlay.Name = "switchAutoPlay";
+            this.switchAutoPlay.Size = new System.Drawing.Size(71, 34);
+            this.switchAutoPlay.TabIndex = 8;
+            this.switchAutoPlay.ThumbMargin = 3;
+            toggleState1.BackColor = System.Drawing.Color.DarkGray;
+            toggleState1.BackColorInner = System.Drawing.Color.White;
+            toggleState1.BorderColor = System.Drawing.Color.DarkGray;
+            toggleState1.BorderColorInner = System.Drawing.Color.White;
+            toggleState1.BorderRadius = 17;
+            toggleState1.BorderRadiusInner = 11;
+            toggleState1.BorderThickness = 1;
+            toggleState1.BorderThicknessInner = 1;
+            this.switchAutoPlay.ToggleStateDisabled = toggleState1;
+            toggleState2.BackColor = System.Drawing.Color.Empty;
+            toggleState2.BackColorInner = System.Drawing.Color.Empty;
+            toggleState2.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(0)))), ((int)(((byte)(140)))));
+            toggleState2.BorderColorInner = System.Drawing.Color.Empty;
+            toggleState2.BorderRadius = 1;
+            toggleState2.BorderRadiusInner = 1;
+            toggleState2.BorderThickness = 1;
+            toggleState2.BorderThicknessInner = 1;
+            this.switchAutoPlay.ToggleStateOff = toggleState2;
+            toggleState3.BackColor = System.Drawing.Color.DodgerBlue;
+            toggleState3.BackColorInner = System.Drawing.Color.White;
+            toggleState3.BorderColor = System.Drawing.Color.DodgerBlue;
+            toggleState3.BorderColorInner = System.Drawing.Color.White;
+            toggleState3.BorderRadius = 15;
+            toggleState3.BorderRadiusInner = 9;
+            toggleState3.BorderThickness = 1;
+            toggleState3.BorderThicknessInner = 1;
+            this.switchAutoPlay.ToggleStateOn = toggleState3;
+            this.switchAutoPlay.Value = true;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(101, 228);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(367, 17);
+            this.label1.TabIndex = 7;
+            this.label1.Text = "You don\'t need to move to the next track, that\'s our works";
             // 
             // bunifuLabel5
             // 
@@ -925,14 +950,52 @@
             this.bunifuLabel5.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
             this.bunifuLabel5.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.Default;
             // 
-            // label1
+            // bunifuLabel4
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(101, 228);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(367, 17);
-            this.label1.TabIndex = 7;
-            this.label1.Text = "You don\'t need to move to the next track, that\'s our works";
+            this.bunifuLabel4.AllowParentOverrides = false;
+            this.bunifuLabel4.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.bunifuLabel4.AutoEllipsis = false;
+            this.bunifuLabel4.Cursor = System.Windows.Forms.Cursors.Default;
+            this.bunifuLabel4.CursorType = System.Windows.Forms.Cursors.Default;
+            this.bunifuLabel4.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bunifuLabel4.ForeColor = System.Drawing.Color.White;
+            this.bunifuLabel4.Location = new System.Drawing.Point(53, 90);
+            this.bunifuLabel4.Name = "bunifuLabel4";
+            this.bunifuLabel4.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.bunifuLabel4.Size = new System.Drawing.Size(103, 23);
+            this.bunifuLabel4.TabIndex = 4;
+            this.bunifuLabel4.Text = "DOWNLOAD";
+            this.bunifuLabel4.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
+            this.bunifuLabel4.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.Default;
+            // 
+            // bunifuLabel1
+            // 
+            this.bunifuLabel1.AllowParentOverrides = false;
+            this.bunifuLabel1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.bunifuLabel1.AutoEllipsis = false;
+            this.bunifuLabel1.Cursor = System.Windows.Forms.Cursors.Default;
+            this.bunifuLabel1.CursorType = System.Windows.Forms.Cursors.Default;
+            this.bunifuLabel1.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bunifuLabel1.ForeColor = System.Drawing.Color.White;
+            this.bunifuLabel1.Location = new System.Drawing.Point(53, 28);
+            this.bunifuLabel1.Name = "bunifuLabel1";
+            this.bunifuLabel1.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.bunifuLabel1.Size = new System.Drawing.Size(93, 28);
+            this.bunifuLabel1.TabIndex = 3;
+            this.bunifuLabel1.Text = "SETTINGS";
+            this.bunifuLabel1.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
+            this.bunifuLabel1.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.Default;
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(101, 116);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(59, 17);
+            this.label2.TabIndex = 1;
+            this.label2.Text = "Location";
             // 
             // artistTransition
             // 
@@ -941,69 +1004,6 @@
             // menuTransition
             // 
             this.menuTransition.Tick += new System.EventHandler(this.menuTransition_Tick);
-            // 
-            // switchAutoPlay
-            // 
-            this.switchAutoPlay.Animation = 5;
-            this.switchAutoPlay.AnimationSpeed = 5;
-            this.switchAutoPlay.BackColor = System.Drawing.Color.Transparent;
-            this.switchAutoPlay.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("switchAutoPlay.BackgroundImage")));
-            this.switchAutoPlay.Checked = true;
-            this.switchAutoPlay.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.switchAutoPlay.InnerCirclePadding = 3;
-            this.switchAutoPlay.Location = new System.Drawing.Point(528, 218);
-            this.switchAutoPlay.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.switchAutoPlay.Name = "switchAutoPlay";
-            this.switchAutoPlay.Size = new System.Drawing.Size(71, 34);
-            this.switchAutoPlay.TabIndex = 8;
-            this.switchAutoPlay.ThumbMargin = 3;
-            toggleState13.BackColor = System.Drawing.Color.DarkGray;
-            toggleState13.BackColorInner = System.Drawing.Color.White;
-            toggleState13.BorderColor = System.Drawing.Color.DarkGray;
-            toggleState13.BorderColorInner = System.Drawing.Color.White;
-            toggleState13.BorderRadius = 17;
-            toggleState13.BorderRadiusInner = 11;
-            toggleState13.BorderThickness = 1;
-            toggleState13.BorderThicknessInner = 1;
-            this.switchAutoPlay.ToggleStateDisabled = toggleState13;
-            toggleState14.BackColor = System.Drawing.Color.Empty;
-            toggleState14.BackColorInner = System.Drawing.Color.Empty;
-            toggleState14.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(0)))), ((int)(((byte)(140)))));
-            toggleState14.BorderColorInner = System.Drawing.Color.Empty;
-            toggleState14.BorderRadius = 1;
-            toggleState14.BorderRadiusInner = 1;
-            toggleState14.BorderThickness = 1;
-            toggleState14.BorderThicknessInner = 1;
-            this.switchAutoPlay.ToggleStateOff = toggleState14;
-            toggleState15.BackColor = System.Drawing.Color.DodgerBlue;
-            toggleState15.BackColorInner = System.Drawing.Color.White;
-            toggleState15.BorderColor = System.Drawing.Color.DodgerBlue;
-            toggleState15.BorderColorInner = System.Drawing.Color.White;
-            toggleState15.BorderRadius = 15;
-            toggleState15.BorderRadiusInner = 9;
-            toggleState15.BorderThickness = 1;
-            toggleState15.BorderThicknessInner = 1;
-            this.switchAutoPlay.ToggleStateOn = toggleState15;
-            this.switchAutoPlay.Value = true;
-            // 
-            // button1
-            // 
-            this.button1.ForeColor = System.Drawing.Color.Black;
-            this.button1.Location = new System.Drawing.Point(574, 130);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(136, 36);
-            this.button1.TabIndex = 10;
-            this.button1.Text = "Change location";
-            this.button1.UseVisualStyleBackColor = true;
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(101, 140);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(90, 17);
-            this.label3.TabIndex = 11;
-            this.label3.Text = "Location here";
             // 
             // Settings
             // 
@@ -1015,6 +1015,7 @@
             this.Controls.Add(this.flowLayoutPanel2);
             this.Name = "Settings";
             this.Text = "Settings";
+            this.Load += new System.EventHandler(this.Settings_Load);
             this.flowLayoutPanel2.ResumeLayout(false);
             this.panel8.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.bunifuPictureBox1)).EndInit();

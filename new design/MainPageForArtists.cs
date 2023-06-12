@@ -12,14 +12,15 @@ namespace new_design
 {
     public partial class MainPageForArtists : Form
     {
+        
         public MainPageForArtists()
         {
             InitializeComponent();
         }
-
+       
         private void MainPageForArtists_Load(object sender, EventArgs e)
         {
-
+            this.WindowState = FormWindowState.Maximized;
         }
 
         private void btn_user_Click(object sender, EventArgs e)
@@ -74,6 +75,27 @@ namespace new_design
                     artistExpand = false;
                 }
             }
+        }
+
+        private void btn_profile_Click(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void btn_home_Click(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void btn_upload_Click(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void btn_profile_Click_1(object sender, EventArgs e)
+        {
+            new Profile().Show();
+            this.Hide();
         }
     }
 }
