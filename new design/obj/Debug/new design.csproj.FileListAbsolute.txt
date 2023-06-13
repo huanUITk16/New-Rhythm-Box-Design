@@ -109,3 +109,12 @@ D:\Học tập\Lap trinh mang can ban\New Design For Rhythmbox\new design\obj\De
 D:\Học tập\Lap trinh mang can ban\New Design For Rhythmbox\new design\obj\Debug\new_design.forgotPassword.resources
 D:\Học tập\Lap trinh mang can ban\New Design For Rhythmbox\new design\obj\Debug\new_design.OTP.resources
 D:\Học tập\Lap trinh mang can ban\New Design For Rhythmbox\new design\obj\Debug\new_design.resetPassword.resources
+D:\Học tập\Lap trinh mang can ban\New Design For Rhythmbox\new design\obj\Debug\new_design.MyAlbumNew.resources
+D:\Học tập\Lap trinh mang can ban\New Design For Rhythmbox\new design\obj\Debug\new_design.ProfileNew.resources
+D:\Học tập\Lap trinh mang can ban\New Design For Rhythmbox\new design\obj\Debug\new_design.SettingsNew.resources
+D:\Học tập\Lap trinh mang can ban\New Design For Rhythmbox\new design\obj\Debug\new_design.AlbumNew.resources
+D:\Học tập\Lap trinh mang can ban\New Design For Rhythmbox\new design\obj\Debug\new_design.ArtistNew.resources
+D:\Học tập\Lap trinh mang can ban\New Design For Rhythmbox\new design\obj\Debug\new_design.HomeNew.resources
+D:\Học tập\Lap trinh mang can ban\New Design For Rhythmbox\new design\obj\Debug\new_design.PlaylistNew.resources
+D:\Học tập\Lap trinh mang can ban\New Design For Rhythmbox\new design\obj\Debug\new_design.UploadNew.resources
+D:\Học tập\Lap trinh mang can ban\New Design For Rhythmbox\new design\obj\Debug\new_design.HomeForArtistsNew.resources

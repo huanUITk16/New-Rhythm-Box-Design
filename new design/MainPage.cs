@@ -143,7 +143,7 @@ namespace new_design
             if (menuExpand)
             {
                 menuPanel.Width -= 10;
-                if (menuPanel.Width <= 65)
+                if (menuPanel.Width <= 70)
                 {
                     menuExpand = false;
                     menuTransition.Stop();
@@ -161,6 +161,19 @@ namespace new_design
 
         }
         
+        public void loadform(object Form)
+        {
+            if (this.mainPanel.Controls.Count > 0)
+            {
+                this.mainPanel.Controls.RemoveAt(0);
+            }
+            Form f = Form as Form;
+            f.TopLevel = false;
+            f.Dock = DockStyle.Fill;
+            this.mainPanel.Controls.Add(f);
+            this.mainPanel.Tag = f;
+            f.Show();
+        }
         
         private void bunifuHSlider1_Scroll(object sender, Utilities.BunifuSlider.BunifuHScrollBar.ScrollEventArgs e)
         {
@@ -194,27 +207,44 @@ namespace new_design
 
         private void btn_profile_Click(object sender, EventArgs e)
         {
+            loadform(new ProfileNew());
             
         }
 
         private void btn_settings_Click(object sender, EventArgs e)
         {
-            new Settings().Show();
-            this.Hide();
+            loadform(new SettingsNew());
         }
 
         private void btn_album_Click(object sender, EventArgs e)
         {
-            new Album().Show();
-            this.Hide();
+            loadform(new AlbumNew());
         }
 
         private void btn_artist_Click(object sender, EventArgs e)
         {
-            new ArtistsLibrary().Show();
-            this.Hide();
+            loadform(new ArtistNew());
         }
-        
+
+        private void panel3_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void btn_home_Click(object sender, EventArgs e)
+        {
+            loadform(new HomeNew());
+        }
+
+        private void btn_playlist_Click(object sender, EventArgs e)
+        {
+            loadform(new PlaylistNew());
+        }
+
+        private void menuPanel_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
     }
     }
 

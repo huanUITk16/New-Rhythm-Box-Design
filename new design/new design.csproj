@@ -232,6 +232,18 @@
     <Compile Include="Album.Designer.cs">
       <DependentUpon>Album.cs</DependentUpon>
     </Compile>
+    <Compile Include="AlbumNew.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AlbumNew.Designer.cs">
+      <DependentUpon>AlbumNew.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ArtistNew.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ArtistNew.Designer.cs">
+      <DependentUpon>ArtistNew.cs</DependentUpon>
+    </Compile>
     <Compile Include="ArtistsLibrary.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -244,6 +256,18 @@
     <Compile Include="forgotPassword.Designer.cs">
       <DependentUpon>forgotPassword.cs</DependentUpon>
     </Compile>
+    <Compile Include="HomeForArtistsNew.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HomeForArtistsNew.Designer.cs">
+      <DependentUpon>HomeForArtistsNew.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HomeNew.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HomeNew.Designer.cs">
+      <DependentUpon>HomeNew.cs</DependentUpon>
+    </Compile>
     <Compile Include="MainPage.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -255,6 +279,12 @@
     </Compile>
     <Compile Include="MainPageForArtists.Designer.cs">
       <DependentUpon>MainPageForArtists.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MyAlbumNew.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MyAlbumNew.Designer.cs">
+      <DependentUpon>MyAlbumNew.cs</DependentUpon>
     </Compile>
     <Compile Include="MyAlbums.cs">
       <SubType>Form</SubType>
@@ -274,11 +304,29 @@
     <Compile Include="Playlist.Designer.cs">
       <DependentUpon>Playlist.cs</DependentUpon>
     </Compile>
+    <Compile Include="PlaylistNew.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PlaylistNew.Designer.cs">
+      <DependentUpon>PlaylistNew.cs</DependentUpon>
+    </Compile>
     <Compile Include="Profile.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Profile.Designer.cs">
       <DependentUpon>Profile.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ProfileNew.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProfileNew.Designer.cs">
+      <DependentUpon>ProfileNew.cs</DependentUpon>
+    </Compile>
+    <Compile Include="profileU.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="profileU.Designer.cs">
+      <DependentUpon>profileU.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -293,6 +341,12 @@
     </Compile>
     <Compile Include="Settings.Designer.cs">
       <DependentUpon>Settings.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SettingsNew.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SettingsNew.Designer.cs">
+      <DependentUpon>SettingsNew.cs</DependentUpon>
     </Compile>
     <Compile Include="Sign In.cs">
       <SubType>Form</SubType>
@@ -311,6 +365,12 @@
     </Compile>
     <Compile Include="Upload.Designer.cs">
       <DependentUpon>Upload.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UploadNew.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UploadNew.Designer.cs">
+      <DependentUpon>UploadNew.cs</DependentUpon>
     </Compile>
     <Content Include="Content\all.css" />
     <Content Include="Content\all.min.css" />
@@ -346,17 +406,32 @@
     <EmbeddedResource Include="Album.resx">
       <DependentUpon>Album.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="AlbumNew.resx">
+      <DependentUpon>AlbumNew.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ArtistNew.resx">
+      <DependentUpon>ArtistNew.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="ArtistsLibrary.resx">
       <DependentUpon>ArtistsLibrary.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="forgotPassword.resx">
       <DependentUpon>forgotPassword.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="HomeForArtistsNew.resx">
+      <DependentUpon>HomeForArtistsNew.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HomeNew.resx">
+      <DependentUpon>HomeNew.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="MainPage.resx">
       <DependentUpon>MainPage.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="MainPageForArtists.resx">
       <DependentUpon>MainPageForArtists.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MyAlbumNew.resx">
+      <DependentUpon>MyAlbumNew.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="MyAlbums.resx">
       <DependentUpon>MyAlbums.cs</DependentUpon>
@@ -367,8 +442,14 @@
     <EmbeddedResource Include="Playlist.resx">
       <DependentUpon>Playlist.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="PlaylistNew.resx">
+      <DependentUpon>PlaylistNew.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Profile.resx">
       <DependentUpon>Profile.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProfileNew.resx">
+      <DependentUpon>ProfileNew.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\licenses.licx" />
     <EmbeddedResource Include="Properties\Resources.resx">
@@ -391,6 +472,9 @@
     <EmbeddedResource Include="Settings.resx">
       <DependentUpon>Settings.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="SettingsNew.resx">
+      <DependentUpon>SettingsNew.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Sign In.resx">
       <DependentUpon>Sign In.cs</DependentUpon>
     </EmbeddedResource>
@@ -399,6 +483,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Upload.resx">
       <DependentUpon>Upload.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UploadNew.resx">
+      <DependentUpon>UploadNew.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">

@@ -22,7 +22,19 @@ namespace new_design
         {
             this.WindowState = FormWindowState.Maximized;
         }
-
+        public void loadform(object Form)
+        {
+            if (this.mainPanel.Controls.Count > 0)
+            {
+                this.mainPanel.Controls.RemoveAt(0);
+            }
+            Form f = Form as Form;
+            f.TopLevel = false;
+            f.Dock = DockStyle.Fill;
+            this.mainPanel.Controls.Add(f);
+            this.mainPanel.Tag = f;
+            f.Show();
+        }
         private void btn_user_Click(object sender, EventArgs e)
         {
             artistTransition.Start();
@@ -38,7 +50,7 @@ namespace new_design
             if (menuExpand)
             {
                 menuPanel.Width -= 10;
-                if (menuPanel.Width <= 60)
+                if (menuPanel.Width <= 70)
                 {
                     menuExpand = false;
                     menuTransition.Stop();
@@ -47,7 +59,7 @@ namespace new_design
             else
             {
                 menuPanel.Width += 10;
-                if (menuPanel.Width >= 220)
+                if (menuPanel.Width >= 200)
                 {
                     menuExpand = true;
                     menuTransition.Stop();
@@ -94,8 +106,47 @@ namespace new_design
 
         private void btn_profile_Click_1(object sender, EventArgs e)
         {
-            new Profile().Show();
-            this.Hide();
+            loadform(new ProfileNew());
+        }
+
+        private void btn_upload_Click_1(object sender, EventArgs e)
+        {
+            loadform(new UploadNew());
+        }
+
+        private void btn_myAlbums_Click(object sender, EventArgs e)
+        {
+            loadform(new MyAlbumNew());
+        }
+
+        private void btn_settings_Click(object sender, EventArgs e)
+        {
+            loadform(new SettingsNew());
+        }
+
+        private void btn_album_Click(object sender, EventArgs e)
+        {
+            loadform(new AlbumNew());
+        }
+
+        private void btn_artist_Click(object sender, EventArgs e)
+        {
+            loadform(new ArtistNew());
+        }
+
+        private void btn_playlist_Click(object sender, EventArgs e)
+        {
+            loadform(new PlaylistNew());
+        }
+
+        private void btn_home_Click_1(object sender, EventArgs e)
+        {
+            loadform(new HomeForArtistsNew());
+        }
+
+        private void menuPanel_Paint(object sender, PaintEventArgs e)
+        {
+
         }
     }
 }
