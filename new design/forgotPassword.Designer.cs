@@ -33,10 +33,10 @@
             this.panel1 = new System.Windows.Forms.Panel();
             this.bunifuLabel1 = new Bunifu.UI.WinForms.BunifuLabel();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.panel_Home = new System.Windows.Forms.Panel();
+            this.btn_send = new System.Windows.Forms.Button();
             this.txt_email = new System.Windows.Forms.TextBox();
             this.bunifuLabel2 = new Bunifu.UI.WinForms.BunifuLabel();
-            this.btn_send = new System.Windows.Forms.Button();
-            this.panel_Home = new System.Windows.Forms.Panel();
             this.flowLayoutPanel1.SuspendLayout();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
@@ -51,17 +51,19 @@
             this.flowLayoutPanel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.flowLayoutPanel1.Controls.Add(this.panel1);
             this.flowLayoutPanel1.Controls.Add(this.panel2);
-            this.flowLayoutPanel1.Location = new System.Drawing.Point(125, 47);
+            this.flowLayoutPanel1.Location = new System.Drawing.Point(94, 38);
+            this.flowLayoutPanel1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.flowLayoutPanel1.Name = "flowLayoutPanel1";
-            this.flowLayoutPanel1.Size = new System.Drawing.Size(426, 553);
+            this.flowLayoutPanel1.Size = new System.Drawing.Size(320, 450);
             this.flowLayoutPanel1.TabIndex = 1;
             // 
             // panel1
             // 
             this.panel1.Controls.Add(this.bunifuLabel1);
-            this.panel1.Location = new System.Drawing.Point(3, 3);
+            this.panel1.Location = new System.Drawing.Point(2, 2);
+            this.panel1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(411, 101);
+            this.panel1.Size = new System.Drawing.Size(308, 82);
             this.panel1.TabIndex = 0;
             // 
             // bunifuLabel1
@@ -74,10 +76,11 @@
             this.bunifuLabel1.CursorType = System.Windows.Forms.Cursors.Default;
             this.bunifuLabel1.Font = new System.Drawing.Font("Segoe UI", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bunifuLabel1.ForeColor = System.Drawing.Color.White;
-            this.bunifuLabel1.Location = new System.Drawing.Point(30, 12);
+            this.bunifuLabel1.Location = new System.Drawing.Point(22, 10);
+            this.bunifuLabel1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.bunifuLabel1.Name = "bunifuLabel1";
             this.bunifuLabel1.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.bunifuLabel1.Size = new System.Drawing.Size(265, 37);
+            this.bunifuLabel1.Size = new System.Drawing.Size(216, 30);
             this.bunifuLabel1.TabIndex = 3;
             this.bunifuLabel1.Text = "FORGOT PASSWORD";
             this.bunifuLabel1.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
@@ -88,10 +91,40 @@
             this.panel2.Controls.Add(this.panel_Home);
             this.panel2.Controls.Add(this.txt_email);
             this.panel2.Controls.Add(this.bunifuLabel2);
-            this.panel2.Location = new System.Drawing.Point(3, 110);
+            this.panel2.Location = new System.Drawing.Point(2, 88);
+            this.panel2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(411, 427);
+            this.panel2.Size = new System.Drawing.Size(308, 347);
             this.panel2.TabIndex = 1;
+            // 
+            // panel_Home
+            // 
+            this.panel_Home.Controls.Add(this.btn_send);
+            this.panel_Home.Location = new System.Drawing.Point(60, 280);
+            this.panel_Home.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panel_Home.Name = "panel_Home";
+            this.panel_Home.Padding = new System.Windows.Forms.Padding(19, 0, 0, 0);
+            this.panel_Home.Size = new System.Drawing.Size(193, 41);
+            this.panel_Home.TabIndex = 2;
+            // 
+            // btn_send
+            // 
+            this.btn_send.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(57)))), ((int)(((byte)(71)))));
+            this.btn_send.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btn_send.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_send.ForeColor = System.Drawing.Color.White;
+            this.btn_send.Image = ((System.Drawing.Image)(resources.GetObject("btn_send.Image")));
+            this.btn_send.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btn_send.Location = new System.Drawing.Point(-10, -13);
+            this.btn_send.Margin = new System.Windows.Forms.Padding(0);
+            this.btn_send.Name = "btn_send";
+            this.btn_send.Padding = new System.Windows.Forms.Padding(19, 0, 0, 0);
+            this.btn_send.Size = new System.Drawing.Size(212, 63);
+            this.btn_send.TabIndex = 0;
+            this.btn_send.Text = "             SEND";
+            this.btn_send.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btn_send.UseVisualStyleBackColor = false;
+            this.btn_send.Click += new System.EventHandler(this.btn_send_Click);
             // 
             // txt_email
             // 
@@ -99,9 +132,10 @@
             this.txt_email.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txt_email.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txt_email.ForeColor = System.Drawing.Color.White;
-            this.txt_email.Location = new System.Drawing.Point(30, 48);
+            this.txt_email.Location = new System.Drawing.Point(22, 39);
+            this.txt_email.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.txt_email.Name = "txt_email";
-            this.txt_email.Size = new System.Drawing.Size(334, 34);
+            this.txt_email.Size = new System.Drawing.Size(251, 29);
             this.txt_email.TabIndex = 3;
             // 
             // bunifuLabel2
@@ -114,49 +148,24 @@
             this.bunifuLabel2.CursorType = System.Windows.Forms.Cursors.Default;
             this.bunifuLabel2.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bunifuLabel2.ForeColor = System.Drawing.Color.White;
-            this.bunifuLabel2.Location = new System.Drawing.Point(30, 21);
+            this.bunifuLabel2.Location = new System.Drawing.Point(22, 17);
+            this.bunifuLabel2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.bunifuLabel2.Name = "bunifuLabel2";
             this.bunifuLabel2.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.bunifuLabel2.Size = new System.Drawing.Size(146, 20);
+            this.bunifuLabel2.Size = new System.Drawing.Size(113, 15);
             this.bunifuLabel2.TabIndex = 2;
             this.bunifuLabel2.Text = "ENTER YOUR EMAIL:";
             this.bunifuLabel2.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
             this.bunifuLabel2.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.Default;
             // 
-            // btn_send
-            // 
-            this.btn_send.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(57)))), ((int)(((byte)(71)))));
-            this.btn_send.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btn_send.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_send.ForeColor = System.Drawing.Color.White;
-            this.btn_send.Image = ((System.Drawing.Image)(resources.GetObject("btn_send.Image")));
-            this.btn_send.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btn_send.Location = new System.Drawing.Point(-13, -16);
-            this.btn_send.Margin = new System.Windows.Forms.Padding(0);
-            this.btn_send.Name = "btn_send";
-            this.btn_send.Padding = new System.Windows.Forms.Padding(25, 0, 0, 0);
-            this.btn_send.Size = new System.Drawing.Size(283, 78);
-            this.btn_send.TabIndex = 0;
-            this.btn_send.Text = "             SEND";
-            this.btn_send.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btn_send.UseVisualStyleBackColor = false;
-            // 
-            // panel_Home
-            // 
-            this.panel_Home.Controls.Add(this.btn_send);
-            this.panel_Home.Location = new System.Drawing.Point(80, 344);
-            this.panel_Home.Name = "panel_Home";
-            this.panel_Home.Padding = new System.Windows.Forms.Padding(25, 0, 0, 0);
-            this.panel_Home.Size = new System.Drawing.Size(257, 51);
-            this.panel_Home.TabIndex = 2;
-            // 
             // forgotPassword
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(9)))), ((int)(((byte)(54)))), ((int)(((byte)(71)))));
-            this.ClientSize = new System.Drawing.Size(1500, 746);
+            this.ClientSize = new System.Drawing.Size(1125, 606);
             this.Controls.Add(this.flowLayoutPanel1);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "forgotPassword";
             this.Text = "forgotPassword";
             this.flowLayoutPanel1.ResumeLayout(false);

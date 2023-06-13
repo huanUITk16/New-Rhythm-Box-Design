@@ -89,7 +89,9 @@ namespace new_design
 
             //var response = await httpClient.PostAsync(requestUrl, null);
 
-            var response = await httpClient.PostAsync($"{BaseUrl}/Forgotpassword", content);
+            var response = await httpClient.PostAsync($"{BaseUrl}/ForgotPassword", content);
+
+            var responseJson = response.Content.ReadAsStringAsync();
 
             if (!response.IsSuccessStatusCode)
                 return false;
@@ -139,7 +141,7 @@ namespace new_design
             //string requestUrl = $"{BaseUrl}/Forgotpassword/RenewPassword?email={email}&newPassword={newpass}";
 
             //var response = await httpClient.PostAsync(requestUrl, null);
-            var response = await httpClient.PostAsync($"{BaseUrl}/Forgotpassword/RenewPassword", content);
+            var response = await httpClient.PutAsync($"{BaseUrl}/Forgotpassword/RenewPassword", content);
 
             if (!response.IsSuccessStatusCode)
                 return false;

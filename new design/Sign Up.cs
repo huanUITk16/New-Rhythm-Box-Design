@@ -4,14 +4,77 @@ using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Linq;
+using System.Security.Cryptography;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Windows.Forms.Design;
 
 namespace new_design
 {
     public partial class Sign_Up : Form
     {
+        ApiService apiService = new ApiService();
+        private string hashPassword(string password)
+        {
+            SHA256 sha256Hash = SHA256.Create();
+            byte[] bytes = sha256Hash.ComputeHash(Encoding.UTF8.GetBytes(password));
+            return Convert.ToBase64String(bytes);
+        }
+
+        public bool isValidPass(string password1, string password2)
+        {
+            if (password1.Length < 3)
+                return false;
+            else if (password1 != password2)
+                return false;
+            return true;
+        }
+
+        public int IntMonth(string sMonth)
+        {
+            switch (sMonth)
+            {
+                case "January":
+                    return 1;
+                case "February":
+                    return 2;
+                case "March":
+                    return 3;
+                case "April":
+                    return 4;
+                case "May":
+                    return 5;
+                case "June":
+                    return 6;
+                case "July":
+                    return 7;
+                case "August":
+                    return 8;
+                case "September":
+                    return 9;
+                case "October":
+                    return 10;
+                case "November":
+                    return 11;
+                case "December":
+                    return 12;
+                default:
+                    return 0;
+            }
+        }
+
+        public string checkboxtostringGender()
+        {
+            if (checkBox_male.Checked)
+                return "Male";
+            else if (checkBox_female.Checked)
+                return "Female";
+            else if (checkBox_other.Checked)
+                return "Other";
+            return "Error Gender!!";
+        }
+
         public Sign_Up()
         {
             InitializeComponent();
@@ -76,6 +139,45 @@ namespace new_design
                 checkBox_male.Enabled = true;
                 checkBox_female.Enabled = true;
             }
+        }
+
+        private async void btn_signIn_Click(object sender, EventArgs e)
+        {
+            int iYear = int.Parse(txt_year.Text);
+            int iMonth = IntMonth(cb_month.Text);
+            int iDate = int.Parse(txt_day.Text);
+            DateTime dBirthday = new DateTime(iYear, iMonth, iDate);
+
+            bool signupRes = await apiService.Account_SignUp(txt_username.Text, txt_email.Text, hashPassword(txt_password.Text), dBirthday, checkboxtostringGender());
+
+            if (txt_username.Text == "" && txt_password.Text == "" && txt_confirm.Text == "")
+            {
+                MessageBox.Show("Username and Password box are empty", "Try again!", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                txt_username.Focus();
+
+            }
+            else if (txt_password.Text == txt_confirm.Text && signupRes)
+            {
+                MessageBox.Show("Your account has been created", "Please sign in", MessageBoxButtons.OK, MessageBoxIcon.Information);
+
+                Sign_In signIn = new Sign_In();
+                signIn.Show();
+                this.Hide();
+            }
+            else
+            {
+                MessageBox.Show("Password does not match", "Please try again", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                txt_password.Clear();
+                txt_confirm.Clear();
+                txt_username.Focus();
+            }
+        }
+
+        private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            Sign_In signIn = new Sign_In();
+            signIn.Show();
+            this.Hide();
         }
     }
 }

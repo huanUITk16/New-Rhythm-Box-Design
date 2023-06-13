@@ -54,17 +54,19 @@
             this.flowLayoutPanel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.flowLayoutPanel1.Controls.Add(this.panel1);
             this.flowLayoutPanel1.Controls.Add(this.panel2);
-            this.flowLayoutPanel1.Location = new System.Drawing.Point(125, 47);
+            this.flowLayoutPanel1.Location = new System.Drawing.Point(94, 38);
+            this.flowLayoutPanel1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.flowLayoutPanel1.Name = "flowLayoutPanel1";
-            this.flowLayoutPanel1.Size = new System.Drawing.Size(426, 553);
+            this.flowLayoutPanel1.Size = new System.Drawing.Size(320, 450);
             this.flowLayoutPanel1.TabIndex = 1;
             // 
             // panel1
             // 
             this.panel1.Controls.Add(this.bunifuLabel1);
-            this.panel1.Location = new System.Drawing.Point(3, 3);
+            this.panel1.Location = new System.Drawing.Point(2, 2);
+            this.panel1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(411, 101);
+            this.panel1.Size = new System.Drawing.Size(308, 82);
             this.panel1.TabIndex = 0;
             // 
             // bunifuLabel1
@@ -77,10 +79,11 @@
             this.bunifuLabel1.CursorType = System.Windows.Forms.Cursors.Default;
             this.bunifuLabel1.Font = new System.Drawing.Font("Segoe UI", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bunifuLabel1.ForeColor = System.Drawing.Color.White;
-            this.bunifuLabel1.Location = new System.Drawing.Point(30, 12);
+            this.bunifuLabel1.Location = new System.Drawing.Point(22, 10);
+            this.bunifuLabel1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.bunifuLabel1.Name = "bunifuLabel1";
             this.bunifuLabel1.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.bunifuLabel1.Size = new System.Drawing.Size(265, 37);
+            this.bunifuLabel1.Size = new System.Drawing.Size(216, 30);
             this.bunifuLabel1.TabIndex = 3;
             this.bunifuLabel1.Text = "FORGOT PASSWORD";
             this.bunifuLabel1.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
@@ -94,9 +97,10 @@
             this.panel2.Controls.Add(this.bunifuLabel3);
             this.panel2.Controls.Add(this.txt_newpass);
             this.panel2.Controls.Add(this.bunifuLabel2);
-            this.panel2.Location = new System.Drawing.Point(3, 110);
+            this.panel2.Location = new System.Drawing.Point(2, 88);
+            this.panel2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(411, 290);
+            this.panel2.Size = new System.Drawing.Size(308, 236);
             this.panel2.TabIndex = 1;
             // 
             // checkBox1
@@ -104,9 +108,10 @@
             this.checkBox1.AutoSize = true;
             this.checkBox1.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.checkBox1.ForeColor = System.Drawing.Color.White;
-            this.checkBox1.Location = new System.Drawing.Point(220, 175);
+            this.checkBox1.Location = new System.Drawing.Point(165, 142);
+            this.checkBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.checkBox1.Name = "checkBox1";
-            this.checkBox1.Size = new System.Drawing.Size(176, 27);
+            this.checkBox1.Size = new System.Drawing.Size(145, 23);
             this.checkBox1.TabIndex = 6;
             this.checkBox1.Text = "SHOW PASSWORD";
             this.checkBox1.UseVisualStyleBackColor = true;
@@ -115,10 +120,11 @@
             // panel_Home
             // 
             this.panel_Home.Controls.Add(this.btn_signIn);
-            this.panel_Home.Location = new System.Drawing.Point(85, 221);
+            this.panel_Home.Location = new System.Drawing.Point(64, 180);
+            this.panel_Home.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.panel_Home.Name = "panel_Home";
-            this.panel_Home.Padding = new System.Windows.Forms.Padding(25, 0, 0, 0);
-            this.panel_Home.Size = new System.Drawing.Size(257, 51);
+            this.panel_Home.Padding = new System.Windows.Forms.Padding(19, 0, 0, 0);
+            this.panel_Home.Size = new System.Drawing.Size(193, 41);
             this.panel_Home.TabIndex = 2;
             // 
             // btn_signIn
@@ -129,15 +135,16 @@
             this.btn_signIn.ForeColor = System.Drawing.Color.White;
             this.btn_signIn.Image = ((System.Drawing.Image)(resources.GetObject("btn_signIn.Image")));
             this.btn_signIn.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btn_signIn.Location = new System.Drawing.Point(-13, -16);
+            this.btn_signIn.Location = new System.Drawing.Point(-10, -13);
             this.btn_signIn.Margin = new System.Windows.Forms.Padding(0);
             this.btn_signIn.Name = "btn_signIn";
-            this.btn_signIn.Padding = new System.Windows.Forms.Padding(25, 0, 0, 0);
-            this.btn_signIn.Size = new System.Drawing.Size(283, 78);
+            this.btn_signIn.Padding = new System.Windows.Forms.Padding(19, 0, 0, 0);
+            this.btn_signIn.Size = new System.Drawing.Size(212, 63);
             this.btn_signIn.TabIndex = 0;
-            this.btn_signIn.Text = "           SIGN IN";
+            this.btn_signIn.Text = "          CONFIRM";
             this.btn_signIn.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btn_signIn.UseVisualStyleBackColor = false;
+            this.btn_signIn.Click += new System.EventHandler(this.btn_signIn_Click);
             // 
             // txt_confirmnew
             // 
@@ -145,10 +152,11 @@
             this.txt_confirmnew.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txt_confirmnew.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txt_confirmnew.ForeColor = System.Drawing.Color.White;
-            this.txt_confirmnew.Location = new System.Drawing.Point(30, 129);
+            this.txt_confirmnew.Location = new System.Drawing.Point(22, 105);
+            this.txt_confirmnew.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.txt_confirmnew.Name = "txt_confirmnew";
             this.txt_confirmnew.PasswordChar = '*';
-            this.txt_confirmnew.Size = new System.Drawing.Size(334, 34);
+            this.txt_confirmnew.Size = new System.Drawing.Size(251, 29);
             this.txt_confirmnew.TabIndex = 5;
             // 
             // bunifuLabel3
@@ -161,10 +169,11 @@
             this.bunifuLabel3.CursorType = System.Windows.Forms.Cursors.Default;
             this.bunifuLabel3.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bunifuLabel3.ForeColor = System.Drawing.Color.White;
-            this.bunifuLabel3.Location = new System.Drawing.Point(30, 102);
+            this.bunifuLabel3.Location = new System.Drawing.Point(22, 83);
+            this.bunifuLabel3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.bunifuLabel3.Name = "bunifuLabel3";
             this.bunifuLabel3.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.bunifuLabel3.Size = new System.Drawing.Size(199, 20);
+            this.bunifuLabel3.Size = new System.Drawing.Size(157, 15);
             this.bunifuLabel3.TabIndex = 4;
             this.bunifuLabel3.Text = "CONFIRM NEW PASSWORD:";
             this.bunifuLabel3.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
@@ -176,9 +185,10 @@
             this.txt_newpass.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txt_newpass.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txt_newpass.ForeColor = System.Drawing.Color.White;
-            this.txt_newpass.Location = new System.Drawing.Point(30, 48);
+            this.txt_newpass.Location = new System.Drawing.Point(22, 39);
+            this.txt_newpass.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.txt_newpass.Name = "txt_newpass";
-            this.txt_newpass.Size = new System.Drawing.Size(334, 34);
+            this.txt_newpass.Size = new System.Drawing.Size(251, 29);
             this.txt_newpass.TabIndex = 3;
             // 
             // bunifuLabel2
@@ -191,10 +201,11 @@
             this.bunifuLabel2.CursorType = System.Windows.Forms.Cursors.Default;
             this.bunifuLabel2.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bunifuLabel2.ForeColor = System.Drawing.Color.White;
-            this.bunifuLabel2.Location = new System.Drawing.Point(30, 21);
+            this.bunifuLabel2.Location = new System.Drawing.Point(22, 17);
+            this.bunifuLabel2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.bunifuLabel2.Name = "bunifuLabel2";
             this.bunifuLabel2.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.bunifuLabel2.Size = new System.Drawing.Size(126, 20);
+            this.bunifuLabel2.Size = new System.Drawing.Size(100, 15);
             this.bunifuLabel2.TabIndex = 2;
             this.bunifuLabel2.Text = "NEW PASSWORD:";
             this.bunifuLabel2.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
@@ -202,11 +213,12 @@
             // 
             // resetPassword
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(9)))), ((int)(((byte)(54)))), ((int)(((byte)(71)))));
-            this.ClientSize = new System.Drawing.Size(1500, 746);
+            this.ClientSize = new System.Drawing.Size(1125, 606);
             this.Controls.Add(this.flowLayoutPanel1);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "resetPassword";
             this.Text = "resetPassword";
             this.flowLayoutPanel1.ResumeLayout(false);
