@@ -23,7 +23,7 @@ namespace new_design
         public ApiService(string token)
         {
             httpClient = new HttpClient();
-            if (string.IsNullOrEmpty(token))
+            if (!string.IsNullOrEmpty(token))
                 httpClient.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", token);
         }
 
@@ -945,5 +945,128 @@ namespace new_design
                 return null;
             }
         }
+
+        // Home //
+        public async Task<HttpResponseMessage> Home_album()
+        {
+            try
+            {
+                var URLendpoint = $"{BaseUrl}/Home/album";
+
+                var response = await httpClient.GetAsync(URLendpoint);
+
+                var responseJson = response.Content.ReadAsStringAsync();
+                if (response.IsSuccessStatusCode)
+                    return response;
+                else
+                {
+                    Console.WriteLine(response.StatusCode);
+                    return null;
+                }
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.Message);
+                return null;
+            }
+        }
+
+        public async Task<HttpResponseMessage> Home_artist()
+        {
+            try
+            {
+                var URLendpoint = $"{BaseUrl}/Home/artist";
+
+                var response = await httpClient.GetAsync(URLendpoint);
+
+                var responseJson = response.Content.ReadAsStringAsync();
+                if (response.IsSuccessStatusCode)
+                    return response;
+                else
+                {
+                    Console.WriteLine(response.StatusCode);
+                    return null;
+                }
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.Message);
+                return null;
+            }
+        }
+
+        public async Task<HttpResponseMessage> Home_track()
+        {
+            try
+            {
+                var URLendpoint = $"{BaseUrl}/Home/track";
+
+                var response = await httpClient.GetAsync(URLendpoint);
+
+                var responseJson = response.Content.ReadAsStringAsync();
+                if (response.IsSuccessStatusCode)
+                    return response;
+                else
+                {
+                    Console.WriteLine(response.StatusCode);
+                    return null;
+                }
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.Message);
+                return null;
+            }
+        }
+
+        public async Task<HttpResponseMessage> Home_recentlyPlayed()
+        {
+            try
+            {
+                var URLendpoint = $"{BaseUrl}/Home/recentlyPlayed";
+
+                var response = await httpClient.GetAsync(URLendpoint);
+
+                var responseJson = response.Content.ReadAsStringAsync();
+                if (response.IsSuccessStatusCode)
+                    return response;
+                else
+                {
+                    Console.WriteLine(response.StatusCode);
+                    return null;
+                }
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.Message);
+                return null;
+            }
+        }
+
+        // Play //
+        public async Task<HttpResponseMessage> playTrack(int trackID)
+        {
+            try
+            {
+                var URLendpoint = $"{BaseUrl}/Play/{trackID}";
+
+                var response = await httpClient.GetAsync(URLendpoint);
+
+                var responseJson = response.Content.ReadAsStringAsync();
+                if (response.IsSuccessStatusCode)
+                    return response;
+                else
+                {
+                    Console.WriteLine(response.StatusCode);
+                    return null;
+                }
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.Message);
+                return null;
+            }
+        }
+
     }
 }

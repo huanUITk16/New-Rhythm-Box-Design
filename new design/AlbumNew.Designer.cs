@@ -86,9 +86,11 @@
             this.panel1.Controls.Add(this.bunifuLabel1);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel1.Location = new System.Drawing.Point(0, 0);
+            this.panel1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1189, 547);
+            this.panel1.Size = new System.Drawing.Size(892, 444);
             this.panel1.TabIndex = 11;
+            this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
             // 
             // flowLayoutPanel1
             // 
@@ -104,9 +106,10 @@
             this.flowLayoutPanel1.Controls.Add(this.bunifuPanel6);
             this.flowLayoutPanel1.Controls.Add(this.bunifuPanel7);
             this.flowLayoutPanel1.Controls.Add(this.bunifuPanel8);
-            this.flowLayoutPanel1.Location = new System.Drawing.Point(47, 107);
+            this.flowLayoutPanel1.Location = new System.Drawing.Point(35, 87);
+            this.flowLayoutPanel1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.flowLayoutPanel1.Name = "flowLayoutPanel1";
-            this.flowLayoutPanel1.Size = new System.Drawing.Size(1139, 312);
+            this.flowLayoutPanel1.Size = new System.Drawing.Size(854, 254);
             this.flowLayoutPanel1.TabIndex = 7;
             // 
             // bunifuPanel1
@@ -119,10 +122,11 @@
             this.bunifuPanel1.BorderThickness = 1;
             this.bunifuPanel1.Controls.Add(this.bunifuLabel4);
             this.bunifuPanel1.Controls.Add(this.pictureBox1);
-            this.bunifuPanel1.Location = new System.Drawing.Point(3, 3);
+            this.bunifuPanel1.Location = new System.Drawing.Point(2, 2);
+            this.bunifuPanel1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.bunifuPanel1.Name = "bunifuPanel1";
             this.bunifuPanel1.ShowBorders = true;
-            this.bunifuPanel1.Size = new System.Drawing.Size(227, 208);
+            this.bunifuPanel1.Size = new System.Drawing.Size(170, 169);
             this.bunifuPanel1.TabIndex = 0;
             // 
             // bunifuLabel4
@@ -135,10 +139,11 @@
             this.bunifuLabel4.CursorType = System.Windows.Forms.Cursors.Default;
             this.bunifuLabel4.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bunifuLabel4.ForeColor = System.Drawing.Color.White;
-            this.bunifuLabel4.Location = new System.Drawing.Point(66, 183);
+            this.bunifuLabel4.Location = new System.Drawing.Point(50, 149);
+            this.bunifuLabel4.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.bunifuLabel4.Name = "bunifuLabel4";
             this.bunifuLabel4.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.bunifuLabel4.Size = new System.Drawing.Size(99, 20);
+            this.bunifuLabel4.Size = new System.Drawing.Size(77, 15);
             this.bunifuLabel4.TabIndex = 2;
             this.bunifuLabel4.Text = "#Album name";
             this.bunifuLabel4.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
@@ -146,9 +151,10 @@
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Location = new System.Drawing.Point(20, 9);
+            this.pictureBox1.Location = new System.Drawing.Point(15, 7);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(189, 168);
+            this.pictureBox1.Size = new System.Drawing.Size(142, 136);
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
             // 
@@ -162,10 +168,11 @@
             this.bunifuPanel2.BorderThickness = 1;
             this.bunifuPanel2.Controls.Add(this.bunifuLabel5);
             this.bunifuPanel2.Controls.Add(this.pictureBox2);
-            this.bunifuPanel2.Location = new System.Drawing.Point(236, 3);
+            this.bunifuPanel2.Location = new System.Drawing.Point(176, 2);
+            this.bunifuPanel2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.bunifuPanel2.Name = "bunifuPanel2";
             this.bunifuPanel2.ShowBorders = true;
-            this.bunifuPanel2.Size = new System.Drawing.Size(227, 208);
+            this.bunifuPanel2.Size = new System.Drawing.Size(170, 169);
             this.bunifuPanel2.TabIndex = 1;
             // 
             // bunifuLabel5
@@ -178,10 +185,11 @@
             this.bunifuLabel5.CursorType = System.Windows.Forms.Cursors.Default;
             this.bunifuLabel5.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bunifuLabel5.ForeColor = System.Drawing.Color.White;
-            this.bunifuLabel5.Location = new System.Drawing.Point(66, 183);
+            this.bunifuLabel5.Location = new System.Drawing.Point(50, 149);
+            this.bunifuLabel5.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.bunifuLabel5.Name = "bunifuLabel5";
             this.bunifuLabel5.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.bunifuLabel5.Size = new System.Drawing.Size(99, 20);
+            this.bunifuLabel5.Size = new System.Drawing.Size(77, 15);
             this.bunifuLabel5.TabIndex = 2;
             this.bunifuLabel5.Text = "#Album name";
             this.bunifuLabel5.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
@@ -189,9 +197,10 @@
             // 
             // pictureBox2
             // 
-            this.pictureBox2.Location = new System.Drawing.Point(20, 9);
+            this.pictureBox2.Location = new System.Drawing.Point(15, 7);
+            this.pictureBox2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(189, 168);
+            this.pictureBox2.Size = new System.Drawing.Size(142, 136);
             this.pictureBox2.TabIndex = 0;
             this.pictureBox2.TabStop = false;
             // 
@@ -205,10 +214,11 @@
             this.bunifuPanel3.BorderThickness = 1;
             this.bunifuPanel3.Controls.Add(this.bunifuLabel6);
             this.bunifuPanel3.Controls.Add(this.pictureBox3);
-            this.bunifuPanel3.Location = new System.Drawing.Point(469, 3);
+            this.bunifuPanel3.Location = new System.Drawing.Point(350, 2);
+            this.bunifuPanel3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.bunifuPanel3.Name = "bunifuPanel3";
             this.bunifuPanel3.ShowBorders = true;
-            this.bunifuPanel3.Size = new System.Drawing.Size(227, 208);
+            this.bunifuPanel3.Size = new System.Drawing.Size(170, 169);
             this.bunifuPanel3.TabIndex = 2;
             // 
             // bunifuLabel6
@@ -221,10 +231,11 @@
             this.bunifuLabel6.CursorType = System.Windows.Forms.Cursors.Default;
             this.bunifuLabel6.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bunifuLabel6.ForeColor = System.Drawing.Color.White;
-            this.bunifuLabel6.Location = new System.Drawing.Point(66, 183);
+            this.bunifuLabel6.Location = new System.Drawing.Point(50, 149);
+            this.bunifuLabel6.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.bunifuLabel6.Name = "bunifuLabel6";
             this.bunifuLabel6.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.bunifuLabel6.Size = new System.Drawing.Size(99, 20);
+            this.bunifuLabel6.Size = new System.Drawing.Size(77, 15);
             this.bunifuLabel6.TabIndex = 2;
             this.bunifuLabel6.Text = "#Album name";
             this.bunifuLabel6.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
@@ -232,9 +243,10 @@
             // 
             // pictureBox3
             // 
-            this.pictureBox3.Location = new System.Drawing.Point(20, 9);
+            this.pictureBox3.Location = new System.Drawing.Point(15, 7);
+            this.pictureBox3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(189, 168);
+            this.pictureBox3.Size = new System.Drawing.Size(142, 136);
             this.pictureBox3.TabIndex = 0;
             this.pictureBox3.TabStop = false;
             // 
@@ -248,10 +260,11 @@
             this.bunifuPanel4.BorderThickness = 1;
             this.bunifuPanel4.Controls.Add(this.bunifuLabel7);
             this.bunifuPanel4.Controls.Add(this.pictureBox4);
-            this.bunifuPanel4.Location = new System.Drawing.Point(702, 3);
+            this.bunifuPanel4.Location = new System.Drawing.Point(524, 2);
+            this.bunifuPanel4.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.bunifuPanel4.Name = "bunifuPanel4";
             this.bunifuPanel4.ShowBorders = true;
-            this.bunifuPanel4.Size = new System.Drawing.Size(227, 208);
+            this.bunifuPanel4.Size = new System.Drawing.Size(170, 169);
             this.bunifuPanel4.TabIndex = 3;
             // 
             // bunifuLabel7
@@ -264,10 +277,11 @@
             this.bunifuLabel7.CursorType = System.Windows.Forms.Cursors.Default;
             this.bunifuLabel7.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bunifuLabel7.ForeColor = System.Drawing.Color.White;
-            this.bunifuLabel7.Location = new System.Drawing.Point(66, 183);
+            this.bunifuLabel7.Location = new System.Drawing.Point(50, 149);
+            this.bunifuLabel7.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.bunifuLabel7.Name = "bunifuLabel7";
             this.bunifuLabel7.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.bunifuLabel7.Size = new System.Drawing.Size(99, 20);
+            this.bunifuLabel7.Size = new System.Drawing.Size(77, 15);
             this.bunifuLabel7.TabIndex = 2;
             this.bunifuLabel7.Text = "#Album name";
             this.bunifuLabel7.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
@@ -275,9 +289,10 @@
             // 
             // pictureBox4
             // 
-            this.pictureBox4.Location = new System.Drawing.Point(20, 9);
+            this.pictureBox4.Location = new System.Drawing.Point(15, 7);
+            this.pictureBox4.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(189, 168);
+            this.pictureBox4.Size = new System.Drawing.Size(142, 136);
             this.pictureBox4.TabIndex = 0;
             this.pictureBox4.TabStop = false;
             // 
@@ -291,10 +306,11 @@
             this.bunifuPanel5.BorderThickness = 1;
             this.bunifuPanel5.Controls.Add(this.bunifuLabel9);
             this.bunifuPanel5.Controls.Add(this.pictureBox5);
-            this.bunifuPanel5.Location = new System.Drawing.Point(3, 217);
+            this.bunifuPanel5.Location = new System.Drawing.Point(2, 175);
+            this.bunifuPanel5.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.bunifuPanel5.Name = "bunifuPanel5";
             this.bunifuPanel5.ShowBorders = true;
-            this.bunifuPanel5.Size = new System.Drawing.Size(227, 208);
+            this.bunifuPanel5.Size = new System.Drawing.Size(170, 169);
             this.bunifuPanel5.TabIndex = 4;
             // 
             // bunifuLabel9
@@ -307,10 +323,11 @@
             this.bunifuLabel9.CursorType = System.Windows.Forms.Cursors.Default;
             this.bunifuLabel9.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bunifuLabel9.ForeColor = System.Drawing.Color.White;
-            this.bunifuLabel9.Location = new System.Drawing.Point(66, 183);
+            this.bunifuLabel9.Location = new System.Drawing.Point(50, 149);
+            this.bunifuLabel9.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.bunifuLabel9.Name = "bunifuLabel9";
             this.bunifuLabel9.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.bunifuLabel9.Size = new System.Drawing.Size(99, 20);
+            this.bunifuLabel9.Size = new System.Drawing.Size(77, 15);
             this.bunifuLabel9.TabIndex = 2;
             this.bunifuLabel9.Text = "#Album name";
             this.bunifuLabel9.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
@@ -318,9 +335,10 @@
             // 
             // pictureBox5
             // 
-            this.pictureBox5.Location = new System.Drawing.Point(20, 9);
+            this.pictureBox5.Location = new System.Drawing.Point(15, 7);
+            this.pictureBox5.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(189, 168);
+            this.pictureBox5.Size = new System.Drawing.Size(142, 136);
             this.pictureBox5.TabIndex = 0;
             this.pictureBox5.TabStop = false;
             // 
@@ -334,10 +352,11 @@
             this.bunifuPanel6.BorderThickness = 1;
             this.bunifuPanel6.Controls.Add(this.bunifuLabel10);
             this.bunifuPanel6.Controls.Add(this.pictureBox6);
-            this.bunifuPanel6.Location = new System.Drawing.Point(236, 217);
+            this.bunifuPanel6.Location = new System.Drawing.Point(176, 175);
+            this.bunifuPanel6.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.bunifuPanel6.Name = "bunifuPanel6";
             this.bunifuPanel6.ShowBorders = true;
-            this.bunifuPanel6.Size = new System.Drawing.Size(227, 208);
+            this.bunifuPanel6.Size = new System.Drawing.Size(170, 169);
             this.bunifuPanel6.TabIndex = 5;
             // 
             // bunifuLabel10
@@ -350,10 +369,11 @@
             this.bunifuLabel10.CursorType = System.Windows.Forms.Cursors.Default;
             this.bunifuLabel10.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bunifuLabel10.ForeColor = System.Drawing.Color.White;
-            this.bunifuLabel10.Location = new System.Drawing.Point(66, 183);
+            this.bunifuLabel10.Location = new System.Drawing.Point(50, 149);
+            this.bunifuLabel10.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.bunifuLabel10.Name = "bunifuLabel10";
             this.bunifuLabel10.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.bunifuLabel10.Size = new System.Drawing.Size(99, 20);
+            this.bunifuLabel10.Size = new System.Drawing.Size(77, 15);
             this.bunifuLabel10.TabIndex = 2;
             this.bunifuLabel10.Text = "#Album name";
             this.bunifuLabel10.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
@@ -361,9 +381,10 @@
             // 
             // pictureBox6
             // 
-            this.pictureBox6.Location = new System.Drawing.Point(20, 9);
+            this.pictureBox6.Location = new System.Drawing.Point(15, 7);
+            this.pictureBox6.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.pictureBox6.Name = "pictureBox6";
-            this.pictureBox6.Size = new System.Drawing.Size(189, 168);
+            this.pictureBox6.Size = new System.Drawing.Size(142, 136);
             this.pictureBox6.TabIndex = 0;
             this.pictureBox6.TabStop = false;
             // 
@@ -377,10 +398,11 @@
             this.bunifuPanel7.BorderThickness = 1;
             this.bunifuPanel7.Controls.Add(this.bunifuLabel11);
             this.bunifuPanel7.Controls.Add(this.pictureBox7);
-            this.bunifuPanel7.Location = new System.Drawing.Point(469, 217);
+            this.bunifuPanel7.Location = new System.Drawing.Point(350, 175);
+            this.bunifuPanel7.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.bunifuPanel7.Name = "bunifuPanel7";
             this.bunifuPanel7.ShowBorders = true;
-            this.bunifuPanel7.Size = new System.Drawing.Size(227, 208);
+            this.bunifuPanel7.Size = new System.Drawing.Size(170, 169);
             this.bunifuPanel7.TabIndex = 6;
             // 
             // bunifuLabel11
@@ -393,10 +415,11 @@
             this.bunifuLabel11.CursorType = System.Windows.Forms.Cursors.Default;
             this.bunifuLabel11.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bunifuLabel11.ForeColor = System.Drawing.Color.White;
-            this.bunifuLabel11.Location = new System.Drawing.Point(66, 183);
+            this.bunifuLabel11.Location = new System.Drawing.Point(50, 149);
+            this.bunifuLabel11.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.bunifuLabel11.Name = "bunifuLabel11";
             this.bunifuLabel11.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.bunifuLabel11.Size = new System.Drawing.Size(99, 20);
+            this.bunifuLabel11.Size = new System.Drawing.Size(77, 15);
             this.bunifuLabel11.TabIndex = 2;
             this.bunifuLabel11.Text = "#Album name";
             this.bunifuLabel11.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
@@ -404,9 +427,10 @@
             // 
             // pictureBox7
             // 
-            this.pictureBox7.Location = new System.Drawing.Point(20, 9);
+            this.pictureBox7.Location = new System.Drawing.Point(15, 7);
+            this.pictureBox7.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.pictureBox7.Name = "pictureBox7";
-            this.pictureBox7.Size = new System.Drawing.Size(189, 168);
+            this.pictureBox7.Size = new System.Drawing.Size(142, 136);
             this.pictureBox7.TabIndex = 0;
             this.pictureBox7.TabStop = false;
             // 
@@ -420,10 +444,11 @@
             this.bunifuPanel8.BorderThickness = 1;
             this.bunifuPanel8.Controls.Add(this.bunifuLabel12);
             this.bunifuPanel8.Controls.Add(this.pictureBox8);
-            this.bunifuPanel8.Location = new System.Drawing.Point(702, 217);
+            this.bunifuPanel8.Location = new System.Drawing.Point(524, 175);
+            this.bunifuPanel8.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.bunifuPanel8.Name = "bunifuPanel8";
             this.bunifuPanel8.ShowBorders = true;
-            this.bunifuPanel8.Size = new System.Drawing.Size(227, 208);
+            this.bunifuPanel8.Size = new System.Drawing.Size(170, 169);
             this.bunifuPanel8.TabIndex = 7;
             // 
             // bunifuLabel12
@@ -436,10 +461,11 @@
             this.bunifuLabel12.CursorType = System.Windows.Forms.Cursors.Default;
             this.bunifuLabel12.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bunifuLabel12.ForeColor = System.Drawing.Color.White;
-            this.bunifuLabel12.Location = new System.Drawing.Point(66, 183);
+            this.bunifuLabel12.Location = new System.Drawing.Point(50, 149);
+            this.bunifuLabel12.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.bunifuLabel12.Name = "bunifuLabel12";
             this.bunifuLabel12.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.bunifuLabel12.Size = new System.Drawing.Size(99, 20);
+            this.bunifuLabel12.Size = new System.Drawing.Size(77, 15);
             this.bunifuLabel12.TabIndex = 2;
             this.bunifuLabel12.Text = "#Album name";
             this.bunifuLabel12.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
@@ -447,9 +473,10 @@
             // 
             // pictureBox8
             // 
-            this.pictureBox8.Location = new System.Drawing.Point(20, 9);
+            this.pictureBox8.Location = new System.Drawing.Point(15, 7);
+            this.pictureBox8.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.pictureBox8.Name = "pictureBox8";
-            this.pictureBox8.Size = new System.Drawing.Size(189, 168);
+            this.pictureBox8.Size = new System.Drawing.Size(142, 136);
             this.pictureBox8.TabIndex = 0;
             this.pictureBox8.TabStop = false;
             // 
@@ -476,11 +503,12 @@
             this.btn_addTracks.DialogResult = System.Windows.Forms.DialogResult.None;
             this.btn_addTracks.Image = ((System.Drawing.Image)(resources.GetObject("btn_addTracks.Image")));
             this.btn_addTracks.ImageMargin = new System.Windows.Forms.Padding(0);
-            this.btn_addTracks.Location = new System.Drawing.Point(179, 15);
+            this.btn_addTracks.Location = new System.Drawing.Point(134, 12);
+            this.btn_addTracks.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btn_addTracks.Name = "btn_addTracks";
             this.btn_addTracks.RoundBorders = false;
             this.btn_addTracks.ShowBorders = true;
-            this.btn_addTracks.Size = new System.Drawing.Size(56, 52);
+            this.btn_addTracks.Size = new System.Drawing.Size(42, 42);
             this.btn_addTracks.Style = Bunifu.UI.WinForms.BunifuButton.BunifuIconButton.ButtonStyles.Flat;
             this.btn_addTracks.TabIndex = 6;
             // 
@@ -494,10 +522,11 @@
             this.bunifuLabel1.CursorType = System.Windows.Forms.Cursors.Default;
             this.bunifuLabel1.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bunifuLabel1.ForeColor = System.Drawing.Color.White;
-            this.bunifuLabel1.Location = new System.Drawing.Point(47, 28);
+            this.bunifuLabel1.Location = new System.Drawing.Point(35, 23);
+            this.bunifuLabel1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.bunifuLabel1.Name = "bunifuLabel1";
             this.bunifuLabel1.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.bunifuLabel1.Size = new System.Drawing.Size(81, 28);
+            this.bunifuLabel1.Size = new System.Drawing.Size(65, 21);
             this.bunifuLabel1.TabIndex = 2;
             this.bunifuLabel1.Text = "ALBUMS";
             this.bunifuLabel1.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
@@ -505,11 +534,12 @@
             // 
             // AlbumNew
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1189, 547);
+            this.ClientSize = new System.Drawing.Size(892, 444);
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "AlbumNew";
             this.Text = "AlbumNew";
             this.panel1.ResumeLayout(false);

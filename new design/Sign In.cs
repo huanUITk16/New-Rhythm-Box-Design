@@ -17,9 +17,10 @@ namespace new_design
 
         private string hashPassword(string password)
         {
-            SHA256 sha256Hash = SHA256.Create();
-            byte[] bytes = sha256Hash.ComputeHash(Encoding.UTF8.GetBytes(password));
-            return Convert.ToBase64String(bytes);
+            //SHA256 sha256Hash = SHA256.Create();
+            //byte[] bytes = sha256Hash.ComputeHash(Encoding.UTF8.GetBytes(password));
+            //return Convert.ToBase64String(bytes);
+            return password;
         }
 
         // Hàm này sẽ được dùng nếu cần thiết
