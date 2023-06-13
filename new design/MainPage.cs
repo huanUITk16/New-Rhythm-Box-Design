@@ -1,9 +1,12 @@
-﻿using System;
+﻿using Newtonsoft.Json.Linq;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Linq;
+using System.Net.Http.Headers;
+using System.Net.Http;
 using System.Runtime.InteropServices;
 using System.ServiceModel.Channels;
 using System.Text;
@@ -15,6 +18,7 @@ namespace new_design
     public partial class MainPage : Form
     {
         private Size formOriginalSize;
+        ApiService apiService = new ApiService();
 
         public MainPage()
         {

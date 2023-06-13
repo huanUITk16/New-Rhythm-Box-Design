@@ -1,8 +1,10 @@
 ﻿using Newtonsoft.Json;
+using Newtonsoft.Json.Linq;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Net.Http;
+using System.Net.Http.Headers;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -16,6 +18,12 @@ namespace new_design
         public ApiService()
         {
             httpClient = new HttpClient();
+        }
+
+        public ApiService(string token)
+        {
+            httpClient = new HttpClient();
+            httpClient.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", token);
         }
 
         // Account //
@@ -72,6 +80,36 @@ namespace new_design
             }
 
             return false;
+        }
+
+        public async Task<bool> updateAccount(string fullName, string bioData, string bioFileName, string imageData, string imageFileName)
+        {
+            try
+            {
+                var request = new
+                {
+                    fullName = fullName,
+                    bioData = bioData,
+                    bioFileName = bioFileName,
+                    imageData = imageData,
+                    imageFileName = imageFileName
+                };
+
+                var requestJson = JsonConvert.SerializeObject(request);
+
+                var content = new StringContent(requestJson, Encoding.UTF8, "application/json");
+
+                var response = await httpClient.PutAsync($"{BaseUrl}/Account/updateAccount", content);
+
+                var responseJson = response.Content.ReadAsStringAsync();
+
+                return response.IsSuccessStatusCode;
+            }
+            catch(Exception ex)
+            {
+                Console.WriteLine(ex.Message);
+                return false;
+            }
         }
 
         // ForgotPassword //
@@ -749,16 +787,9 @@ namespace new_design
         {
             try
             {
-                var request = new
-                {
-                    playlistId = playlistId,
-                };
+                var URLendpoint = $"{BaseUrl}/Playlist/deletePlaylist?playlistId={playlistId}";
 
-                var requestJson = JsonConvert.SerializeObject(request);
-
-                var content = new StringContent(requestJson);
-
-                var response = await httpClient.PostAsync($"{BaseUrl}/Playlist/deletePlaylist", content);
+                var response = await httpClient.DeleteAsync(URLendpoint);
 
                 var responseJson = response.Content?.ReadAsStringAsync();
 
@@ -785,7 +816,7 @@ namespace new_design
 
                 var content = new StringContent(requestJson);
 
-                var response = await httpClient.PostAsync($"{BaseUrl}/Playlist/updateTitle", content);
+                var response = await httpClient.PutAsync($"{BaseUrl}/Playlist/updateTitle", content);
 
                 var responseJson = response.Content?.ReadAsStringAsync();
 
@@ -802,17 +833,9 @@ namespace new_design
         {
             try
             {
-                var request = new
-                {
-                    playlistId = playlistId,
-                    trackId = trackId
-                };
+                var URLendpoint = $"{BaseUrl}/Playlist/deleteTrack?playlistId={playlistId}&trackId={trackId}";
 
-                var requestJson = JsonConvert.SerializeObject(request);
-
-                var content = new StringContent(requestJson);
-
-                var response = await httpClient.PostAsync($"{BaseUrl}/Playlist/deleteTrack", content);
+                var response = await httpClient.DeleteAsync(URLendpoint);
 
                 var responseJson = response.Content?.ReadAsStringAsync();
 
