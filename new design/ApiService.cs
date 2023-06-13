@@ -23,7 +23,8 @@ namespace new_design
         public ApiService(string token)
         {
             httpClient = new HttpClient();
-            httpClient.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", token);
+            if (string.IsNullOrEmpty(token))
+                httpClient.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", token);
         }
 
         // Account //

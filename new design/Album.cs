@@ -12,6 +12,7 @@ namespace new_design
 {
     public partial class Album : Form
     {
+        ApiService apiService = new ApiService(TokenManager.GetAccessToken());
         public Album()
         {
             InitializeComponent();
@@ -65,6 +66,7 @@ namespace new_design
         private void Album_Load(object sender, EventArgs e)
         {
             this.WindowState = FormWindowState.Maximized;
+            apiService.AlbumsLib_getAlbumLoad()
         }
     }
 }
