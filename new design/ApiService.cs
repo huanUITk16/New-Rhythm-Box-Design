@@ -118,7 +118,7 @@ namespace new_design
         {
             var request = new
             {
-                email = email
+                email
             };
             var requestJson = JsonConvert.SerializeObject(request);
 
