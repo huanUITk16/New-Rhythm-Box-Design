@@ -75,7 +75,7 @@
             this.flowLayoutPanel1.Controls.Add(this.panel2);
             this.flowLayoutPanel1.Controls.Add(this.panel3);
             this.flowLayoutPanel1.Location = new System.Drawing.Point(94, 38);
-            this.flowLayoutPanel1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.flowLayoutPanel1.Margin = new System.Windows.Forms.Padding(2);
             this.flowLayoutPanel1.Name = "flowLayoutPanel1";
             this.flowLayoutPanel1.Size = new System.Drawing.Size(372, 559);
             this.flowLayoutPanel1.TabIndex = 1;
@@ -84,7 +84,7 @@
             // 
             this.panel1.Controls.Add(this.bunifuLabel1);
             this.panel1.Location = new System.Drawing.Point(2, 2);
-            this.panel1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panel1.Margin = new System.Windows.Forms.Padding(2);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(347, 46);
             this.panel1.TabIndex = 0;
@@ -100,7 +100,7 @@
             this.bunifuLabel1.Font = new System.Drawing.Font("Segoe UI", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bunifuLabel1.ForeColor = System.Drawing.Color.White;
             this.bunifuLabel1.Location = new System.Drawing.Point(22, 10);
-            this.bunifuLabel1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.bunifuLabel1.Margin = new System.Windows.Forms.Padding(2);
             this.bunifuLabel1.Name = "bunifuLabel1";
             this.bunifuLabel1.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.bunifuLabel1.Size = new System.Drawing.Size(88, 30);
@@ -132,7 +132,7 @@
             this.panel2.Controls.Add(this.txt_username);
             this.panel2.Controls.Add(this.bunifuLabel2);
             this.panel2.Location = new System.Drawing.Point(2, 52);
-            this.panel2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panel2.Margin = new System.Windows.Forms.Padding(2);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(347, 418);
             this.panel2.TabIndex = 1;
@@ -143,7 +143,7 @@
             this.checkBox_other.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.checkBox_other.ForeColor = System.Drawing.Color.White;
             this.checkBox_other.Location = new System.Drawing.Point(197, 386);
-            this.checkBox_other.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.checkBox_other.Margin = new System.Windows.Forms.Padding(2);
             this.checkBox_other.Name = "checkBox_other";
             this.checkBox_other.Size = new System.Drawing.Size(73, 23);
             this.checkBox_other.TabIndex = 22;
@@ -157,7 +157,7 @@
             this.checkBox_female.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.checkBox_female.ForeColor = System.Drawing.Color.White;
             this.checkBox_female.Location = new System.Drawing.Point(104, 386);
-            this.checkBox_female.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.checkBox_female.Margin = new System.Windows.Forms.Padding(2);
             this.checkBox_female.Name = "checkBox_female";
             this.checkBox_female.Size = new System.Drawing.Size(79, 23);
             this.checkBox_female.TabIndex = 21;
@@ -171,7 +171,7 @@
             this.checkBox_male.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.checkBox_male.ForeColor = System.Drawing.Color.White;
             this.checkBox_male.Location = new System.Drawing.Point(22, 386);
-            this.checkBox_male.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.checkBox_male.Margin = new System.Windows.Forms.Padding(2);
             this.checkBox_male.Name = "checkBox_male";
             this.checkBox_male.Size = new System.Drawing.Size(65, 23);
             this.checkBox_male.TabIndex = 20;
@@ -190,7 +190,7 @@
             this.bunifuLabel11.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bunifuLabel11.ForeColor = System.Drawing.Color.White;
             this.bunifuLabel11.Location = new System.Drawing.Point(16, 365);
-            this.bunifuLabel11.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.bunifuLabel11.Margin = new System.Windows.Forms.Padding(2);
             this.bunifuLabel11.Name = "bunifuLabel11";
             this.bunifuLabel11.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.bunifuLabel11.Size = new System.Drawing.Size(50, 15);
@@ -206,7 +206,7 @@
             this.txt_year.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txt_year.ForeColor = System.Drawing.Color.White;
             this.txt_year.Location = new System.Drawing.Point(284, 332);
-            this.txt_year.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txt_year.Margin = new System.Windows.Forms.Padding(2);
             this.txt_year.Name = "txt_year";
             this.txt_year.Size = new System.Drawing.Size(52, 29);
             this.txt_year.TabIndex = 17;
@@ -222,7 +222,7 @@
             this.bunifuLabel10.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bunifuLabel10.ForeColor = System.Drawing.Color.White;
             this.bunifuLabel10.Location = new System.Drawing.Point(248, 339);
-            this.bunifuLabel10.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.bunifuLabel10.Margin = new System.Windows.Forms.Padding(2);
             this.bunifuLabel10.Name = "bunifuLabel10";
             this.bunifuLabel10.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.bunifuLabel10.Size = new System.Drawing.Size(32, 15);
@@ -242,7 +242,7 @@
             this.bunifuLabel9.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bunifuLabel9.ForeColor = System.Drawing.Color.White;
             this.bunifuLabel9.Location = new System.Drawing.Point(97, 339);
-            this.bunifuLabel9.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.bunifuLabel9.Margin = new System.Windows.Forms.Padding(2);
             this.bunifuLabel9.Name = "bunifuLabel9";
             this.bunifuLabel9.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.bunifuLabel9.Size = new System.Drawing.Size(48, 15);
@@ -270,7 +270,7 @@
             "NOVEMBER",
             "DECEMBER"});
             this.cb_month.Location = new System.Drawing.Point(148, 332);
-            this.cb_month.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.cb_month.Margin = new System.Windows.Forms.Padding(2);
             this.cb_month.Name = "cb_month";
             this.cb_month.Size = new System.Drawing.Size(92, 29);
             this.cb_month.TabIndex = 14;
@@ -282,7 +282,7 @@
             this.txt_day.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txt_day.ForeColor = System.Drawing.Color.White;
             this.txt_day.Location = new System.Drawing.Point(50, 332);
-            this.txt_day.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txt_day.Margin = new System.Windows.Forms.Padding(2);
             this.txt_day.Name = "txt_day";
             this.txt_day.Size = new System.Drawing.Size(38, 29);
             this.txt_day.TabIndex = 13;
@@ -298,7 +298,7 @@
             this.bunifuLabel8.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bunifuLabel8.ForeColor = System.Drawing.Color.White;
             this.bunifuLabel8.Location = new System.Drawing.Point(16, 339);
-            this.bunifuLabel8.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.bunifuLabel8.Margin = new System.Windows.Forms.Padding(2);
             this.bunifuLabel8.Name = "bunifuLabel8";
             this.bunifuLabel8.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.bunifuLabel8.Size = new System.Drawing.Size(27, 15);
@@ -318,7 +318,7 @@
             this.bunifuLabel7.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bunifuLabel7.ForeColor = System.Drawing.Color.White;
             this.bunifuLabel7.Location = new System.Drawing.Point(22, 314);
-            this.bunifuLabel7.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.bunifuLabel7.Margin = new System.Windows.Forms.Padding(2);
             this.bunifuLabel7.Name = "bunifuLabel7";
             this.bunifuLabel7.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.bunifuLabel7.Size = new System.Drawing.Size(181, 15);
@@ -334,9 +334,8 @@
             this.txt_email.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txt_email.ForeColor = System.Drawing.Color.White;
             this.txt_email.Location = new System.Drawing.Point(22, 262);
-            this.txt_email.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txt_email.Margin = new System.Windows.Forms.Padding(2);
             this.txt_email.Name = "txt_email";
-            this.txt_email.PasswordChar = '*';
             this.txt_email.Size = new System.Drawing.Size(311, 29);
             this.txt_email.TabIndex = 10;
             // 
@@ -351,7 +350,7 @@
             this.bunifuLabel6.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bunifuLabel6.ForeColor = System.Drawing.Color.White;
             this.bunifuLabel6.Location = new System.Drawing.Point(22, 240);
-            this.bunifuLabel6.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.bunifuLabel6.Margin = new System.Windows.Forms.Padding(2);
             this.bunifuLabel6.Name = "bunifuLabel6";
             this.bunifuLabel6.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.bunifuLabel6.Size = new System.Drawing.Size(38, 15);
@@ -367,7 +366,7 @@
             this.txt_confirm.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txt_confirm.ForeColor = System.Drawing.Color.White;
             this.txt_confirm.Location = new System.Drawing.Point(22, 165);
-            this.txt_confirm.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txt_confirm.Margin = new System.Windows.Forms.Padding(2);
             this.txt_confirm.Name = "txt_confirm";
             this.txt_confirm.PasswordChar = '*';
             this.txt_confirm.Size = new System.Drawing.Size(311, 29);
@@ -384,7 +383,7 @@
             this.bunifuLabel5.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bunifuLabel5.ForeColor = System.Drawing.Color.White;
             this.bunifuLabel5.Location = new System.Drawing.Point(22, 143);
-            this.bunifuLabel5.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.bunifuLabel5.Margin = new System.Windows.Forms.Padding(2);
             this.bunifuLabel5.Name = "bunifuLabel5";
             this.bunifuLabel5.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.bunifuLabel5.Size = new System.Drawing.Size(127, 15);
@@ -399,7 +398,7 @@
             this.checkBox1.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.checkBox1.ForeColor = System.Drawing.Color.White;
             this.checkBox1.Location = new System.Drawing.Point(197, 210);
-            this.checkBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.checkBox1.Margin = new System.Windows.Forms.Padding(2);
             this.checkBox1.Name = "checkBox1";
             this.checkBox1.Size = new System.Drawing.Size(145, 23);
             this.checkBox1.TabIndex = 6;
@@ -414,7 +413,7 @@
             this.txt_password.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txt_password.ForeColor = System.Drawing.Color.White;
             this.txt_password.Location = new System.Drawing.Point(22, 105);
-            this.txt_password.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txt_password.Margin = new System.Windows.Forms.Padding(2);
             this.txt_password.Name = "txt_password";
             this.txt_password.PasswordChar = '*';
             this.txt_password.Size = new System.Drawing.Size(311, 29);
@@ -432,7 +431,7 @@
             this.bunifuLabel3.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bunifuLabel3.ForeColor = System.Drawing.Color.White;
             this.bunifuLabel3.Location = new System.Drawing.Point(22, 83);
-            this.bunifuLabel3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.bunifuLabel3.Margin = new System.Windows.Forms.Padding(2);
             this.bunifuLabel3.Name = "bunifuLabel3";
             this.bunifuLabel3.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.bunifuLabel3.Size = new System.Drawing.Size(70, 15);
@@ -448,7 +447,7 @@
             this.txt_username.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txt_username.ForeColor = System.Drawing.Color.White;
             this.txt_username.Location = new System.Drawing.Point(22, 39);
-            this.txt_username.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txt_username.Margin = new System.Windows.Forms.Padding(2);
             this.txt_username.Name = "txt_username";
             this.txt_username.Size = new System.Drawing.Size(311, 29);
             this.txt_username.TabIndex = 3;
@@ -464,7 +463,7 @@
             this.bunifuLabel2.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bunifuLabel2.ForeColor = System.Drawing.Color.White;
             this.bunifuLabel2.Location = new System.Drawing.Point(22, 17);
-            this.bunifuLabel2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.bunifuLabel2.Margin = new System.Windows.Forms.Padding(2);
             this.bunifuLabel2.Name = "bunifuLabel2";
             this.bunifuLabel2.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.bunifuLabel2.Size = new System.Drawing.Size(67, 15);
@@ -479,7 +478,7 @@
             this.panel3.Controls.Add(this.bunifuLabel12);
             this.panel3.Controls.Add(this.panel_Home);
             this.panel3.Location = new System.Drawing.Point(2, 474);
-            this.panel3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panel3.Margin = new System.Windows.Forms.Padding(2);
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(347, 103);
             this.panel3.TabIndex = 2;
@@ -509,7 +508,7 @@
             this.bunifuLabel12.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bunifuLabel12.ForeColor = System.Drawing.Color.White;
             this.bunifuLabel12.Location = new System.Drawing.Point(50, 72);
-            this.bunifuLabel12.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.bunifuLabel12.Margin = new System.Windows.Forms.Padding(2);
             this.bunifuLabel12.Name = "bunifuLabel12";
             this.bunifuLabel12.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.bunifuLabel12.Size = new System.Drawing.Size(170, 15);
@@ -522,7 +521,7 @@
             // 
             this.panel_Home.Controls.Add(this.btn_signIn);
             this.panel_Home.Location = new System.Drawing.Point(76, 15);
-            this.panel_Home.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panel_Home.Margin = new System.Windows.Forms.Padding(2);
             this.panel_Home.Name = "panel_Home";
             this.panel_Home.Padding = new System.Windows.Forms.Padding(19, 0, 0, 0);
             this.panel_Home.Size = new System.Drawing.Size(193, 41);
@@ -554,7 +553,7 @@
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(9)))), ((int)(((byte)(54)))), ((int)(((byte)(71)))));
             this.ClientSize = new System.Drawing.Size(1125, 606);
             this.Controls.Add(this.flowLayoutPanel1);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "Sign_Up";
             this.Text = "Sign_Up";
             this.flowLayoutPanel1.ResumeLayout(false);

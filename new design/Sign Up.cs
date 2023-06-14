@@ -35,29 +35,29 @@ namespace new_design
         {
             switch (sMonth)
             {
-                case "January":
+                case "JANUARY":
                     return 1;
-                case "February":
+                case "FEBRUARY":
                     return 2;
-                case "March":
+                case "MARCH":
                     return 3;
-                case "April":
+                case "APRIL":
                     return 4;
-                case "May":
+                case "MAY":
                     return 5;
-                case "June":
+                case "JUNE":
                     return 6;
-                case "July":
+                case "JULY":
                     return 7;
-                case "August":
+                case "AUGUST":
                     return 8;
-                case "September":
+                case "SEPTEMBER":
                     return 9;
-                case "October":
+                case "OCTOBER":
                     return 10;
-                case "November":
+                case "NOVEMBER":
                     return 11;
-                case "December":
+                case "DECEMBER":
                     return 12;
                 default:
                     return 0;
@@ -145,8 +145,9 @@ namespace new_design
         {
             int iYear = int.Parse(txt_year.Text);
             int iMonth = IntMonth(cb_month.Text);
-            int iDate = int.Parse(txt_day.Text);
-            DateTime dBirthday = new DateTime(iYear, iMonth, iDate);
+            int iDay = int.Parse(txt_day.Text);
+
+            DateTime dBirthday = new DateTime(iYear, iMonth, iDay);
 
             bool signupRes = await apiService.Account_SignUp(txt_username.Text, txt_email.Text, hashPassword(txt_password.Text), dBirthday, checkboxtostringGender());
 

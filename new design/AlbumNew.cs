@@ -23,18 +23,18 @@ namespace new_design
 
         private async void panel1_Paint(object sender, PaintEventArgs e)
         {
-            HttpResponseMessage response = await apiService.AlbumsLib_getAlbumLoad();
-            string rawJson = await response.Content.ReadAsStringAsync();
-            JArray albumLibData = JArray.Parse(rawJson);
+            //HttpResponseMessage response = await apiService.AlbumsLib_getAlbumLoad();
+            //string rawJson = await response.Content.ReadAsStringAsync();
+            //JArray albumLibData = JArray.Parse(rawJson);
 
-            string name = "";
+            //string name = "";
 
-            foreach( JObject albumLib in albumLibData )
-            {
-                name = (string)albumLib["Item2"];
-            }
-            //string name = (string)albumLibData["Item2"];
-            bunifuLabel4.Text = name;
+            //foreach( JObject albumLib in albumLibData )
+            //{
+            //    name = (string)albumLib["Item2"];
+            //}
+            ////string name = (string)albumLibData["Item2"];
+            //bunifuLabel4.Text = name;
         }
     }
 }
